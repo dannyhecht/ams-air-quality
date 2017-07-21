@@ -31,13 +31,13 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZXhhbXBsZXMiLCJhIjoiY2lqbmpqazdlMDBsdnRva284c
 var map = new mapboxgl.Map({
   container: 'map', // container id
   style: 'mapbox://styles/mapbox/light-v9', // stylesheet location
-  center: [-84.5, 38.05], // starting position
+  center: [52.379189, 4.899431], // starting position
   zoom: 12 // starting zoom
 });
 
 
 // load datasets
-var hospitals = {
+var stations1 = {
   type: 'FeatureCollection',
   features: [
     { type: 'Feature', properties: { Name: 'VA Medical Center -- Leestown Division', Address: '2250 Leestown Rd' }, geometry: { type: 'Point', coordinates: [-84.539487, 38.072916] } },
@@ -52,7 +52,7 @@ var hospitals = {
     { type: 'Feature', properties: { Name: 'UK Medical Center', Address: '800 Rose St' }, geometry: { type: 'Point', coordinates: [-84.508205, 38.031254] } }
   ]
 };
-var libraries = {
+var stations2 = {
   type: 'FeatureCollection',
   features: [
     { type: 'Feature', properties: { Name: 'Village Branch', Address: '2185 Versailles Rd' }, geometry: { type: 'Point', coordinates: [-84.548369, 38.047876] } },
@@ -67,11 +67,11 @@ var libraries = {
 // add markers
 map.on('load', function() {
   map.addLayer({
-    id: 'hospitals',
+    id: 'stations1',
     type: 'symbol',
     source: {
       type: 'geojson',
-      data: hospitals
+      data: stations1
     },
     layout: {
       'icon-image': 'hospital-15'
@@ -79,11 +79,11 @@ map.on('load', function() {
     paint: { }
   });
   map.addLayer({
-    id: 'libraries',
+    id: 'stations2',
     type: 'symbol',
     source: {
       type: 'geojson',
-      data: libraries
+      data: stations2
     },
     layout: {
       'icon-image': 'library-15'
@@ -96,7 +96,7 @@ map.on('load', function() {
 var popup = new mapboxgl.Popup();
 
 map.on('mousemove', function(e) {
-  var features = map.queryRenderedFeatures(e.point, { layers: ['hospitals', 'libraries'] });
+  var features = map.queryRenderedFeatures(e.point, { layers: ['stations1', 'stations2'] });
   if (!features.length) {
     popup.remove();
     return;
@@ -119,7 +119,7 @@ map.on('mousemove', function(e) {
 // user event handle: mouse click
 map.on('click', function(e) {
   // Return any features from the 'libraries' layer whenever the map is clicked
-  var libraryFeatures = map.queryRenderedFeatures(e.point, { layers: ['libraries'] });
+  var libraryFeatures = map.queryRenderedFeatures(e.point, { layers: ['stations2'] });
   if (!libraryFeatures.length) {
     return;
   }
