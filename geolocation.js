@@ -1,3 +1,4 @@
+ /*      
         var map;
         function initialize() {
         var myOptions = {
@@ -57,5 +58,7 @@
         }
         
         google.maps.event.addDomListener(window, 'load', initialize);
+        
+        */
       
     
