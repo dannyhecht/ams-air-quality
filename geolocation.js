@@ -11,7 +11,7 @@
             scaleControl: false,
             streetViewControl: false,
             overviewMapControl: false,
-          center: new google.maps.LatLng(52.379189, 4.899431),
+          center: new google.maps.LatLng(4.899431, 52.379189),
           mapTypeId: google.maps.MapTypeId.ROADMAP
         };
         map = new google.maps.Map(document.getElementById('map'),
@@ -48,7 +48,7 @@
         
         var options = {
           map: map,
-          position: new google.maps.LatLng(52.379189, 4.899431),
+          position: new google.maps.LatLng(4.899431, 52.379189),
           content: content
         };
         
