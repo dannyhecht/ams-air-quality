@@ -1,4 +1,5 @@
-// From https://github.com/gavinr/csv-to-geojson/blob/master/js/libs/GeoJson.js
+// Using JSON to GeoJSON package from caseypt https://github.com/caseypt/geojson.js 
+// (licnese (c) 2012 Casey Thomas, MIT License)
 
 (function(GeoJSON) {
   GeoJSON.version = '0.1.5';
