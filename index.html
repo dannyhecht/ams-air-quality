@@ -25,7 +25,7 @@
       container: 'map', // container id
       style: 'mapbox://styles/mapbox/light-v9', // stylesheet location
       center: [4.899431, 52.379189], // long lat
-      zoom: 20 // starting zoom
+      zoom: 12 // starting zoom
     });
 
 /*
@@ -90,14 +90,7 @@
       .setHTML(feature.properties.Name)
       .addTo(map);
 
-      map.addSource('nearest-hospital', {
-      type: 'geojson',
-      data: {
-        type: 'FeatureCollection',
-        features: []
-        } 
-      });
-    });
+      
 
     // user event handle: mouse click
     map.on('click', function(e) {
