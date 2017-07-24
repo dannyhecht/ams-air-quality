@@ -89,7 +89,7 @@
       popup.setLngLat(feature.geometry.coordinates)
       .setHTML(feature.properties.Name)
       .addTo(map);
-
+    });
       
 
     // user event handle: mouse click
@@ -100,6 +100,8 @@
         return;
       }
       var libraryFeature = libraryFeatures[0];
+    });
+        
 </script>
 
 <script src= 'toggleLayers.js'></script>
