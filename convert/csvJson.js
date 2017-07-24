@@ -4,6 +4,8 @@
 // arrays. The default delimiter is the comma, but this
 // can be overriden in the second argument.
 
+var strData = 'data/aqi_monitoring_network.csv';
+
 function CSVToArray(strData, strDelimiter) {
     // Check to see if the delimiter is defined. If not,
     // then default to comma.
