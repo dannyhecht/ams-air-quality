@@ -1,4 +1,5 @@
 var filterGroup = document.getElementById('filter-group');
+var stations1 = 'data/aqi_monitoring_network.geojson';
 
 map.on('load', function() {
     // Add a GeoJSON source containing place coordinates and information.
