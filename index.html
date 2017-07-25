@@ -15,21 +15,11 @@
 <!-- <nav id="menu"></nav> -->
 <div id='map'></div>
     
-<nav id='filter-group' class='filter-group'></nav>
-    
-<div class='map-overlay top'>
-    <div class='map-overlay-inner'>
-        <h2>Air Quality Report</h2>
-        <label id='hour'></label>
-        <input id='slider' type='range' min='0' max='23' step='1' value='0' />
-    </div>
-    <div class='map-overlay-inner'>
-        <div id='legend' class='legend'>
-            <div class='bar'></div>
-            <div>Hourly NO2 Concentration (µg/m3)</div>
-        </div>
-    </div>
+<div id='console'>
+    <h1>Hourly Air Pollution Levels</h1>
+  <p>Data: <a href='https://www.luchtmeetnet.nl/download'>Pollution Concentrations</a> in Amsterdam, The Netherlands</p>
 </div>
+    
 
 <script src='//d3js.org/d3.v3.min.js' charset='utf-8'></script>
 <script>
