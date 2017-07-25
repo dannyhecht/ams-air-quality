@@ -44,3 +44,18 @@ document.getElementById('slider').addEventListener('input', function(e) {
   document.getElementById('active-hour').innerText = hour12 + ampm;
 });
 
+document.getElementById('filters').addEventListener('change', function(e) {
+  var day = e.target.value;
+  var filterDay;
+  if (day === 'all') {
+    filterDay = null;
+  } else if (day === 'weekday') {
+    filterDay = ['!in', 'Day', 'Sat', 'Sun'];
+  } else if (day === 'weekend') {
+    filterDay = ['in', 'Day', 'Sat', 'Sun'];
+  } else {
+    console.log('error');
+  }
+  map.setFilter('collisions', filterDay);
+});
+
