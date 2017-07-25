@@ -1,4 +1,4 @@
-tijdstip,locatie,component,waarde,LKI
+DateTime,Location,Pollutant,Concentration,AQI
 2017-05-01 02:00:00+02:00,Amsterdam-Stadhouderskade,C8H10,0.14,1
 2017-05-01 02:00:00+02:00,Amsterdam-Stadhouderskade,C7H8,0.72,1
 2017-05-01 02:00:00+02:00,Amsterdam-Stadhouderskade,NO2,14.0,2
