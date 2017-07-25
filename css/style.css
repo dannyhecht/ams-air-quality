@@ -146,3 +146,20 @@ body {
   padding: 10px 20px;
   background-color: white;
 }
+
+
+h1 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+h2 {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #2dc4b2;
+}
