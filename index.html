@@ -14,8 +14,24 @@
 
 <nav id="menu"></nav>
 <div id='map'></div>
+    
 <nav id='filter-group' class='filter-group'></nav>
+    
+<div class='map-overlay top'>
+    <div class='map-overlay-inner'>
+        <h2>Air Quality Report</h2>
+        <label id='hour'></label>
+        <input id='slider' type='range' min='0' max='23' step='1' value='0' />
+    </div>
+    <div class='map-overlay-inner'>
+        <div id='legend' class='legend'>
+            <div class='bar'></div>
+            <div>Hourly NO2 Concentration (µg/m3)</div>
+        </div>
+    </div>
+</div>
 
+<script src='//d3js.org/d3.v3.min.js' charset='utf-8'></script>
 <script>
     mapboxgl.accessToken = 'pk.eyJ1IjoiZXhhbXBsZXMiLCJhIjoiY2lqbmpqazdlMDBsdnRva284cWd3bm11byJ9.V6Hg2oYJwMAxeoR9GEzkAA';
     var map = new mapboxgl.Map({
@@ -26,24 +42,24 @@
       //interactive: true
     });
 
-   var stations1 = 'data/aqi_monitoring_network.geojson';
+   var stations1 = 'ams-air-quality/data/aqi_monitoring_network.geojson';
    
     // add markers
     map.on('load', function() {
       map.addSource('stations1', {
         type: 'geojson',
-        data: ' ams-air-quality/data/aqi_monitoring_network.geojson'
+        data: 'ams-air-quality/data/aqi_monitoring_network.geojson'
       });   
         
       map.addLayer({
-        id: 'stations1',
+        id: 'point',
         type: 'symbol',
         source: {
           type: 'geojson',
           data: stations1
         },
         layout: {
-          'icon-image': 'hospital-15'
+          'icon-image': 'marker-15'
         },
         paint: { }
       });
@@ -78,7 +94,7 @@
         
 </script>
 
-<script src= 'toggleLayers.js'></script>
+<script src= 'js/toggleLayers.js'></script>
 <script src = 'js/filterLayers.js'></script>
 
     
