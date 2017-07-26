@@ -10,7 +10,7 @@ body {
         bottom: 0;
         width: 100%;
       }
-
+/*
 #menu {
         background: #fff;
         position: absolute;
@@ -44,7 +44,7 @@ body {
         background-color: #3887be;
         color: #ffffff;
     }
-/*
+
 .filter-group {
         font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
         font-weight: 600;
