@@ -44,7 +44,7 @@ body {
         background-color: #3887be;
         color: #ffffff;
     }
-
+/*
 .filter-group {
         font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
         font-weight: 600;
@@ -135,7 +135,9 @@ body {
     margin: 0;
     cursor: ew-resize;
 }
-    
+ 
+*/
+
 #console {
   position: absolute;
   width: 240px;
