@@ -79,15 +79,14 @@
             filter: ['all', filterHour, filterDay],
             source: {
               type: 'geojson',
-              data: 'data/ams_stadhouderskade_5-01-2017.geojson' 
+              data: 'data/ams_stadhouderskade_5-01-2017.geojson'
             },
             paint: {
               'circle-radius': {
                 property: 'Concentration',
                 stops: [
                   [0, 3],
-                  [5, 15]
-                ]
+                  [5, 15] ]    
               },
               'circle-color': {
                 property: 'Concentration',
@@ -97,11 +96,10 @@
                   [2, '#669EC4'],
                   [3, '#8B88B6'],
                   [4, '#A2719B'],
-                  [5, '#AA5E79']
-                ]
+                  [5, '#AA5E79'] ]
               },
               'circle-opacity': 0.8
-            }
+            
           }, 'admin-2-boundaries-dispute'); // place the layer beneath this layer in the basemap
         
 
