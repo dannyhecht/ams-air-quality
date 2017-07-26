@@ -166,6 +166,7 @@ a {
 
 .session {
   margin-bottom: 20px;
+  z-index: 100;
 }
 
 .row {
