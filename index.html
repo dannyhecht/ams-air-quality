@@ -19,15 +19,15 @@
       <p>Data: <a href='https://www.luchtmeetnet.nl/download'>Pollution Concentrations</a> in Amsterdam, The Netherlands</p>
 
       <div class='session'>
-          <h2>NO2 Concentration (ug/m3)</h2>
+          <h2>NO2 Concentration (μg/m3)</h2>
           <div class='row colors'></div>
           <div class='row labels'>
             <div class='label'>0</div>
-            <div class='label'>1</div>
-            <div class='label'>2</div>
-            <div class='label'>3</div>
-            <div class='label'>4</div>
-            <div class='label'>5+</div>
+            <div class='label'>25</div>
+            <div class='label'>75</div>
+            <div class='label'>100</div>
+            <div class='label'>125</div>
+            <div class='label'>150+</div>
           </div>
       </div>  
 
@@ -59,28 +59,27 @@
           style: 'mapbox://styles/dhecht/cj53sifm400tw2smg5jlerack', // stylesheet location
           center: [4.899431, 52.379189], // long lat
           zoom: 12 // starting zoom
-          //interactive: true
     });
         
     map.on('load', function() {
           map.addLayer({
-            id: 'collisions',
+            id: 'pollutants',
             type: 'circle',
             filter: ['==', 'Hour', 12],
             source: {
               type: 'geojson',
-              data: './collisions1601.geojson' 
+              data: 'data/ams_stadhouderskade_5-01-2017.geojson' 
             },
             paint: {
               'circle-radius': {
-                property: 'Casualty',
+                property: 'Concentration',
                 stops: [
                   [0, 3],
                   [5, 15]
                 ]
               },
               'circle-color': {
-                property: 'Casualty',
+                property: 'Concentration',
                 stops: [
                   [0, '#2DC4B2'],
                   [1, '#3BB3C3'],
@@ -99,7 +98,7 @@
               // get the current hour as an integer
               var hour = parseInt(e.target.value);
               // map.setFilter(layer-name, filter)
-              map.setFilter('collisions', ['==', 'Hour', hour]);
+              map.setFilter('pollutants', ['==', 'Hour', hour]);
 
               // converting 0-23 hour to AMPM format
               var ampm = hour >= 12 ? 'PM' : 'AM';
@@ -120,7 +119,7 @@
               } else {
                 console.log('error');
               }
-              map.setFilter('collisions', filterDay);
+              map.setFilter('pollutants', filterDay);
             });
         
      }); 
