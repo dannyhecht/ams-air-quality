@@ -5,7 +5,7 @@ map.on('load', function() {
     filter: ['==', 'Hour', 12],
     source: {
       type: 'geojson',
-      data: './collisions1601.geojson' // replace this with the url of your own geojson
+      data: 'data/stadhouderskade_5-01-2017.geojson' 
     },
     paint: {
       'circle-radius': {
