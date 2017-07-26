@@ -1,0 +1,2705 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 02:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C6H6",
+    "Concentration":0.43,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 02:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C7H8",
+    "Concentration":0.72,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 02:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C8H10",
+    "Concentration":0.14,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 02:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"FN",
+    "Concentration":0.63,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 02:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO",
+    "Concentration":0.3,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 02:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO2",
+    "Concentration":14,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 02:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM10",
+    "Concentration":13.9,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 02:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM25",
+    "Concentration":13.5,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 03:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"FN",
+    "Concentration":0.58,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 03:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO",
+    "Concentration":0.2,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 03:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO2",
+    "Concentration":8.3,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 03:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM10",
+    "Concentration":16.8,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 03:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM25",
+    "Concentration":11.3,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 04:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"FN",
+    "Concentration":0.6,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 04:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO",
+    "Concentration":0.2,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 04:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO2",
+    "Concentration":7.2,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 04:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM10",
+    "Concentration":13.7,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 04:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM25",
+    "Concentration":12.1,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 05:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"FN",
+    "Concentration":0.65,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 05:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO",
+    "Concentration":0.1,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 05:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO2",
+    "Concentration":7.2,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 05:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM10",
+    "Concentration":13.3,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 05:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM25",
+    "Concentration":11.7,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 06:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"FN",
+    "Concentration":0.73,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 06:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO",
+    "Concentration":0.2,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 06:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO2",
+    "Concentration":8.2,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 06:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM10",
+    "Concentration":13.1,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 06:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM25",
+    "Concentration":10.6,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 07:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C6H6",
+    "Concentration":0.59,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 07:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C7H8",
+    "Concentration":0.52,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 07:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C8H10",
+    "Concentration":0.33,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 07:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"FN",
+    "Concentration":0.92,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 07:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO",
+    "Concentration":0.8,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 07:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO2",
+    "Concentration":18.1,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 07:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM10",
+    "Concentration":12.9,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 07:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM25",
+    "Concentration":9.2,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 08:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C6H6",
+    "Concentration":0.71,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 08:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C7H8",
+    "Concentration":0.94,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 08:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C8H10",
+    "Concentration":0.37,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 08:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"FN",
+    "Concentration":1.35,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 08:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO",
+    "Concentration":10.4,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 08:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO2",
+    "Concentration":48.1,
+    "AQI":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 08:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM10",
+    "Concentration":17.8,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 08:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM25",
+    "Concentration":7,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 09:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C6H6",
+    "Concentration":1.85,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 09:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C7H8",
+    "Concentration":7.64,
+    "AQI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 09:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C8H10",
+    "Concentration":4.05,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 09:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"FN",
+    "Concentration":1.42,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 09:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO",
+    "Concentration":19.8,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 09:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO2",
+    "Concentration":54.5,
+    "AQI":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 09:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM10",
+    "Concentration":11.6,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 09:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM25",
+    "Concentration":6.8,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 10:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C6H6",
+    "Concentration":1.02,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 10:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C7H8",
+    "Concentration":2.94,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 10:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C8H10",
+    "Concentration":1.65,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 10:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"FN",
+    "Concentration":0.97,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 10:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO",
+    "Concentration":20.5,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 10:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO2",
+    "Concentration":49.3,
+    "AQI":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 10:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM10",
+    "Concentration":8.9,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 10:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM25",
+    "Concentration":7.4,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 11:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C6H6",
+    "Concentration":1.1,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 11:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C7H8",
+    "Concentration":3.59,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 11:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C8H10",
+    "Concentration":1.52,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 11:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"FN",
+    "Concentration":0.94,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 11:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO",
+    "Concentration":19.3,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 11:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO2",
+    "Concentration":41,
+    "AQI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 11:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM10",
+    "Concentration":5.6,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 11:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM25",
+    "Concentration":6.3,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 12:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C6H6",
+    "Concentration":0.79,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 12:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C7H8",
+    "Concentration":2.24,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 12:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C8H10",
+    "Concentration":0.88,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 12:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"FN",
+    "Concentration":0.63,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 12:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO",
+    "Concentration":11.2,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 12:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO2",
+    "Concentration":28.6,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 12:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM10",
+    "Concentration":3.8,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 12:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM25",
+    "Concentration":4.3,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 13:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C6H6",
+    "Concentration":0.47,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 13:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C7H8",
+    "Concentration":0.91,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 13:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C8H10",
+    "Concentration":0.44,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 13:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"FN",
+    "Concentration":0.64,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 13:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO",
+    "Concentration":16.3,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 13:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO2",
+    "Concentration":28.3,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 13:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM10",
+    "Concentration":4.9,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 13:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM25",
+    "Concentration":5.4,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 14:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C6H6",
+    "Concentration":0.42,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 14:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C7H8",
+    "Concentration":1.1,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 14:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C8H10",
+    "Concentration":0.32,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 14:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"FN",
+    "Concentration":0.57,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 14:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO",
+    "Concentration":7.2,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 14:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO2",
+    "Concentration":24.1,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 14:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM10",
+    "Concentration":9,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 14:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM25",
+    "Concentration":7.1,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 15:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C6H6",
+    "Concentration":0.51,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 15:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C7H8",
+    "Concentration":1.19,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 15:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C8H10",
+    "Concentration":0.42,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 15:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"FN",
+    "Concentration":0.67,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 15:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO",
+    "Concentration":8,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 15:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO2",
+    "Concentration":29.7,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 15:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM10",
+    "Concentration":9.3,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 15:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM25",
+    "Concentration":9.2,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 16:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C6H6",
+    "Concentration":0.81,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 16:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C7H8",
+    "Concentration":3.18,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 16:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C8H10",
+    "Concentration":1.17,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 16:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"FN",
+    "Concentration":0.87,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 16:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO",
+    "Concentration":8.9,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 16:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO2",
+    "Concentration":31.2,
+    "AQI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 16:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM10",
+    "Concentration":7.1,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 16:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM25",
+    "Concentration":8.5,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 17:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C6H6",
+    "Concentration":0.77,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 17:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C7H8",
+    "Concentration":2.98,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 17:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C8H10",
+    "Concentration":1.29,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 17:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"FN",
+    "Concentration":0.66,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 17:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO",
+    "Concentration":8.8,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 17:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO2",
+    "Concentration":25.9,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 17:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM10",
+    "Concentration":6.2,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 17:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM25",
+    "Concentration":4.4,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 18:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C6H6",
+    "Concentration":1.09,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 18:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C7H8",
+    "Concentration":4.61,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 18:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C8H10",
+    "Concentration":1.97,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 18:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"FN",
+    "Concentration":0.74,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 18:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO",
+    "Concentration":12.3,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 18:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO2",
+    "Concentration":28,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 18:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM10",
+    "Concentration":8.1,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 18:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM25",
+    "Concentration":3.9,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 19:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C6H6",
+    "Concentration":1.26,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 19:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C7H8",
+    "Concentration":5.7,
+    "AQI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 19:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C8H10",
+    "Concentration":3.06,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 19:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"FN",
+    "Concentration":0.9,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 19:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO",
+    "Concentration":12.6,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 19:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO2",
+    "Concentration":32.7,
+    "AQI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 19:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM10",
+    "Concentration":7.9,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 19:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM25",
+    "Concentration":6.3,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 20:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C6H6",
+    "Concentration":0.95,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 20:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C7H8",
+    "Concentration":3.46,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 20:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C8H10",
+    "Concentration":1.71,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 20:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"FN",
+    "Concentration":0.83,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 20:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO",
+    "Concentration":10.3,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 20:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO2",
+    "Concentration":33.1,
+    "AQI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 20:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM10",
+    "Concentration":7.4,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 20:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM25",
+    "Concentration":8.3,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 21:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C6H6",
+    "Concentration":1.32,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 21:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C7H8",
+    "Concentration":5.68,
+    "AQI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 21:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C8H10",
+    "Concentration":3.1,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 21:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"FN",
+    "Concentration":0.65,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 21:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO",
+    "Concentration":2.2,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 21:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO2",
+    "Concentration":27.5,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 21:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM10",
+    "Concentration":12.6,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 21:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM25",
+    "Concentration":8,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 22:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C6H6",
+    "Concentration":1.12,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 22:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C7H8",
+    "Concentration":3.81,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 22:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C8H10",
+    "Concentration":1.84,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 22:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"FN",
+    "Concentration":1.16,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 22:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO",
+    "Concentration":1.5,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 22:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO2",
+    "Concentration":38,
+    "AQI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 22:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM10",
+    "Concentration":12.2,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 22:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM25",
+    "Concentration":8.8,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 23:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C6H6",
+    "Concentration":0.88,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 23:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C7H8",
+    "Concentration":3.09,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 23:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C8H10",
+    "Concentration":1.36,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 23:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"FN",
+    "Concentration":1.21,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 23:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO",
+    "Concentration":2.7,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 23:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO2",
+    "Concentration":43.7,
+    "AQI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 23:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM10",
+    "Concentration":10.7,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-01 23:00:00+02:00",
+    "Day":"Mon",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM25",
+    "Concentration":9.9,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-02 00:00:00+02:00",
+    "Day":"Tues",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C6H6",
+    "Concentration":0.65,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-02 00:00:00+02:00",
+    "Day":"Tues",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C7H8",
+    "Concentration":1.76,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-02 00:00:00+02:00",
+    "Day":"Tues",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C8H10",
+    "Concentration":0.73,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-02 00:00:00+02:00",
+    "Day":"Tues",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"FN",
+    "Concentration":0.93,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-02 00:00:00+02:00",
+    "Day":"Tues",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO",
+    "Concentration":0.8,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-02 00:00:00+02:00",
+    "Day":"Tues",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO2",
+    "Concentration":26.6,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-02 00:00:00+02:00",
+    "Day":"Tues",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM10",
+    "Concentration":10.7,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-02 00:00:00+02:00",
+    "Day":"Tues",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM25",
+    "Concentration":8.4,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-02 01:00:00+02:00",
+    "Day":"Tues",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C6H6",
+    "Concentration":0.69,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-02 01:00:00+02:00",
+    "Day":"Tues",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C7H8",
+    "Concentration":1.85,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-02 01:00:00+02:00",
+    "Day":"Tues",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"C8H10",
+    "Concentration":0.75,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-02 01:00:00+02:00",
+    "Day":"Tues",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"FN",
+    "Concentration":0.89,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-02 01:00:00+02:00",
+    "Day":"Tues",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO",
+    "Concentration":0.9,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-02 01:00:00+02:00",
+    "Day":"Tues",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"NO2",
+    "Concentration":24.6,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-02 01:00:00+02:00",
+    "Day":"Tues",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM10",
+    "Concentration":10.8,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.899696,52.35808 ]
+    },
+    "properties": {
+    "DateTime":"2017-05-02 01:00:00+02:00",
+    "Day":"Tues",
+    "Station":"Amsterdam-Stadhouderskade",
+    "Pollutant":"PM25",
+    "Concentration":10.5,
+    "AQI":2
+    }
+  }
+]
+}
