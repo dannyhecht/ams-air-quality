@@ -36,7 +36,7 @@
   <h2>Hour: <label id='active-hour'>12PM</label></h2>
   <input id='slider' class='row' type='range' min='0' max='23' step='1' value='12' />
 </div>
-<script src='js/timeFilters.js'></script>
+
 
 <script src='//d3js.org/d3.v3.min.js' charset='utf-8'></script>
 <script>
@@ -57,7 +57,8 @@
         type: 'geojson',
         data: 'ams-air-quality/data/aqi_monitoring_network.geojson'
       });   
-        
+     
+ /*
       map.addLayer({
         id: 'point',
         type: 'symbol',
@@ -98,10 +99,11 @@
       }
       var libraryFeature = libraryFeatures[0];
     });
-        
+ */      
 </script>
-
-<script src= 'js/toggleLayers.js'></script>
+    
+<script src='js/timeFilters.js'></script>
+<!-- <script src= 'js/toggleLayers.js'></script> -->
 <script src = 'js/filterLayers.js'></script>
 
     
