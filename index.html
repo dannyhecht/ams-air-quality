@@ -13,7 +13,7 @@
 </head>
     
 <body>
-    <div id='map'></div>
+    
     <!--
     <div id='console'>
       <h1>Hourly Air Pollution Levels</h1>
@@ -51,19 +51,19 @@
 
     </div>
 -->
-
+    <div id='map'></div>
     <script>
-        mapboxgl.accessToken = 'pk.eyJ1IjoiZGhlY2h0IiwiYSI6ImNqNHRueTVyeDA3ZmYyd3FuY2NmYW9tNmoifQ.FetU2-IBDcrhTmSKBpFIfA';
+    mapboxgl.accessToken = 'pk.eyJ1IjoiZGhlY2h0IiwiYSI6ImNqNHRueTVyeDA3ZmYyd3FuY2NmYW9tNmoifQ.FetU2-IBDcrhTmSKBpFIfA';
 
-        var map = new mapboxgl.Map({
+    var map = new mapboxgl.Map({
           container: 'map', // container id
           style: 'mapbox://styles/dhecht/cj53sifm400tw2smg5jlerack', // stylesheet location
           center: [4.899431, 52.379189], // long lat
           zoom: 12 // starting zoom
           //interactive: true
-        });
+    });
         
-        map.on('load', function() {
+    map.on('load', function() {
           map.addLayer({
             id: 'collisions',
             type: 'circle',
@@ -124,7 +124,7 @@
               map.setFilter('collisions', filterDay);
             });
         
-        }); 
+     }); 
      /*
        var stations1 = 'ams-air-quality/data/aqi_monitoring_network.geojson';
 
