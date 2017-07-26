@@ -70,10 +70,13 @@
     }));
         
     map.on('load', function() {
+          var filterHour = ['in', 'DateTime', 12:00:00+02:00];
+          var filterDay = ['!=', 'Day', 'Bob'];
+
           map.addLayer({
             id: 'pollutants',
             type: 'circle',
-            filter: ['==', 'DateTime', 12:00:00],
+            filter: ['all', filterHour, filterDay],
             source: {
               type: 'geojson',
               data: 'data/ams_stadhouderskade_5-01-2017.geojson' 
@@ -103,12 +106,13 @@
         
 
             document.getElementById('slider').addEventListener('input', function(e) {
-              // get the current hour as an integer
-              
-              var hour = parseInt(e.target.value);
-                (hour < 10 ? '0' : '') + hour + ':00:00+02:00';
+              // get the current hour as an integer 
+                
+              var hour = e.target.value;
+                (hour < 10 ? '0' + '') + hour + ':00:00+02:00';
               // map.setFilter(layer-name, filter)
-              map.setFilter('pollutants', ['==', 'DateTime', hour]);
+              filterHour = ['in', 'DateTime', hour];
+              map.setFilter('pollutants', ['all', filterHour, filterDay]) 
 
               // converting 0-23 hour to AMPM format
               var ampm = hour >= 12 ? 'PM' : 'AM';
@@ -119,9 +123,9 @@
 
             document.getElementById('filters').addEventListener('change', function(e) {
               var day = e.target.value;
-              var filterDay;
               if (day === 'all') {
-                filterDay = null;
+                // `null` would not work for combining filters
+                filterDay = ['!=', 'Day', 'Bob'];
               } else if (day === 'weekday') {
                 filterDay = ['!in', 'Day', 'Sat', 'Sun'];
               } else if (day === 'weekend') {
@@ -129,7 +133,7 @@
               } else {
                 console.log('error');
               }
-              map.setFilter('pollutants', filterDay);
+              map.setFilter('pollutants', filterHour, filterDay);
             });
         
      }); 
