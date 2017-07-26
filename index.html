@@ -10,108 +10,108 @@
 </head>
     
 <body>
-<div id='map'></div>
-<div id='console'>
-  <h1>Hourly Air Pollution Levels</h1>
-  <p>Data: <a href='https://www.luchtmeetnet.nl/download'>Pollution Concentrations</a> in Amsterdam, The Netherlands</p>
-    
-  <div class='session'>
-      <h2>NO2 Concentration (ug/m3)</h2>
-      <div class='row colors'></div>
-      <div class='row labels'>
-        <div class='label'>0</div>
-        <div class='label'>1</div>
-        <div class='label'>2</div>
-        <div class='label'>3</div>
-        <div class='label'>4</div>
-        <div class='label'>5+</div>
+    <div id='map'></div>
+    <div id='console'>
+      <h1>Hourly Air Pollution Levels</h1>
+      <p>Data: <a href='https://www.luchtmeetnet.nl/download'>Pollution Concentrations</a> in Amsterdam, The Netherlands</p>
+
+      <div class='session'>
+          <h2>NO2 Concentration (ug/m3)</h2>
+          <div class='row colors'></div>
+          <div class='row labels'>
+            <div class='label'>0</div>
+            <div class='label'>1</div>
+            <div class='label'>2</div>
+            <div class='label'>3</div>
+            <div class='label'>4</div>
+            <div class='label'>5+</div>
+          </div>
+      </div>  
+
+      <div class='session' id='sliderbar'>
+          <h2>Hour: <label id='active-hour'>12PM</label></h2>
+          <input id='slider' class='row' type='range' min='0' max='23' step='1' value='12' />
       </div>
-  </div>  
-    
-  <div class='session' id='sliderbar'>
-      <h2>Hour: <label id='active-hour'>12PM</label></h2>
-      <input id='slider' class='row' type='range' min='0' max='23' step='1' value='12' />
-  </div>
-   
-  <div class='session'>
-      <h2>Day of the week</h2>
-      <div class='row' id='filters'>
-        <input id='all' type='radio' name='toggle' value='all' checked='checked'>
-        <label for='all'>All</label>
-        <input id='weekday' type='radio' name='toggle' value='weekday'>
-        <label for='weekday'>Weekday</label>
-        <input id='weekend' type='radio' name='toggle' value='weekend'>
-        <label for='weekend'>Weekend</label>
+
+      <div class='session'>
+          <h2>Day of the week</h2>
+          <div class='row' id='filters'>
+            <input id='all' type='radio' name='toggle' value='all' checked='checked'>
+            <label for='all'>All</label>
+            <input id='weekday' type='radio' name='toggle' value='weekday'>
+            <label for='weekday'>Weekday</label>
+            <input id='weekend' type='radio' name='toggle' value='weekend'>
+            <label for='weekend'>Weekend</label>
+          </div>
       </div>
-  </div>
-    
-</div>
 
-<script>
-    mapboxgl.accessToken = 'pk.eyJ1IjoiZGhlY2h0IiwiYSI6ImNqNHRueTVyeDA3ZmYyd3FuY2NmYW9tNmoifQ.FetU2-IBDcrhTmSKBpFIfA';
+    </div>
 
-    var map = new mapboxgl.Map({
-      container: 'map', // container id
-      style: 'mapbox://styles/mapbox/light-v9', // stylesheet location
-      center: [4.899431, 52.379189], // long lat
-      zoom: 12 // starting zoom
-      //interactive: true
-    });
-    
- /*
-   var stations1 = 'ams-air-quality/data/aqi_monitoring_network.geojson';
-   
-    // add markers
-    map.on('load', function() {
-      map.addSource('stations1', {
-        type: 'geojson',
-        data: 'ams-air-quality/data/aqi_monitoring_network.geojson'
-      });   
-     
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoiZGhlY2h0IiwiYSI6ImNqNHRueTVyeDA3ZmYyd3FuY2NmYW9tNmoifQ.FetU2-IBDcrhTmSKBpFIfA';
 
-      map.addLayer({
-        id: 'point',
-        type: 'symbol',
-        source: {
-          type: 'geojson',
-          data: stations1
-        },
-        layout: {
-          'icon-image': 'marker-15'
-        },
-        paint: { }
-      });
-    });
+        var map = new mapboxgl.Map({
+          container: 'map', // container id
+          style: 'mapbox://styles/mapbox/light-v9', // stylesheet location
+          center: [4.899431, 52.379189], // long lat
+          zoom: 12 // starting zoom
+          //interactive: true
+        });
 
-    // user event handle: mouseover
-    var popup = new mapboxgl.Popup();
+     /*
+       var stations1 = 'ams-air-quality/data/aqi_monitoring_network.geojson';
 
-    map.on('mousemove', function(e) {
-      var features = map.queryRenderedFeatures(e.point, { layers: ['stations1', 'stations2'] });
-      if (!features.length) {
-        popup.remove();
-        return;
-      }
-      var feature = features[0];
+        // add markers
+        map.on('load', function() {
+          map.addSource('stations1', {
+            type: 'geojson',
+            data: 'ams-air-quality/data/aqi_monitoring_network.geojson'
+          });   
 
-      popup.setLngLat(feature.geometry.coordinates)
-      .setHTML(feature.properties.Name)
-      .addTo(map);
-    });
-      
 
-    // user event handle: mouse click
-    map.on('click', function(e) {
-      // Return any features from the 'libraries' layer whenever the map is clicked
-      var libraryFeatures = map.queryRenderedFeatures(e.point, { layers: ['stations2'] });
-      if (!libraryFeatures.length) {
-        return;
-      }
-      var libraryFeature = libraryFeatures[0];
- */ 
-    }); 
-</script>
-<script src='js/timeFilters.js'></script>
+          map.addLayer({
+            id: 'point',
+            type: 'symbol',
+            source: {
+              type: 'geojson',
+              data: stations1
+            },
+            layout: {
+              'icon-image': 'marker-15'
+            },
+            paint: { }
+          });
+        });
+
+        // user event handle: mouseover
+        var popup = new mapboxgl.Popup();
+
+        map.on('mousemove', function(e) {
+          var features = map.queryRenderedFeatures(e.point, { layers: ['stations1', 'stations2'] });
+          if (!features.length) {
+            popup.remove();
+            return;
+          }
+          var feature = features[0];
+
+          popup.setLngLat(feature.geometry.coordinates)
+          .setHTML(feature.properties.Name)
+          .addTo(map);
+        });
+
+
+        // user event handle: mouse click
+        map.on('click', function(e) {
+          // Return any features from the 'libraries' layer whenever the map is clicked
+          var libraryFeatures = map.queryRenderedFeatures(e.point, { layers: ['stations2'] });
+          if (!libraryFeatures.length) {
+            return;
+          }
+          var libraryFeature = libraryFeatures[0];
+     */ 
+        }); 
+    </script>
+    <script src='js/timeFilters.js'></script>
     
 </body>    
 </html>
