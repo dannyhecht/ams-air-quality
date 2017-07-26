@@ -3,7 +3,6 @@
 <head>
     <meta charset='utf-8' />
     <title> Air Quality Monitoring </title>
-    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <script src='https://api.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.css' rel='stylesheet' />
     <link rel="stylesheet" type="text/css" href="css/style.css">     
@@ -33,7 +32,6 @@
       <input id='slider' class='row' type='range' min='0' max='23' step='1' value='12' />
   </div>
    
-    
   <div class='session'>
       <h2>Day of the week</h2>
       <div class='row' id='filters'>
@@ -47,7 +45,6 @@
   </div>
     
 </div>
-</body>
 
 <script>
     mapboxgl.accessToken = 'pk.eyJ1IjoiZXhhbXBsZXMiLCJhIjoiY2lqbmpqazdlMDBsdnRva284cWd3bm11byJ9.V6Hg2oYJwMAxeoR9GEzkAA';
@@ -58,9 +55,10 @@
       zoom: 12 // starting zoom
       //interactive: true
     });
-
+    
+ /*
    var stations1 = 'ams-air-quality/data/aqi_monitoring_network.geojson';
- /*   
+   
     // add markers
     map.on('load', function() {
       map.addSource('stations1', {
@@ -113,4 +111,5 @@
 </script>
 <script src='js/timeFilters.js'></script>
     
+</body>    
 </html>
