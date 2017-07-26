@@ -140,7 +140,7 @@ body {
 
 #console {
   position: absolute;
-  width: 240px;
+  width: 260px;
   margin: 10px;
   padding: 10px 20px;
   background-color: white;
@@ -165,7 +165,6 @@ a {
 
 .session {
   margin-bottom: 20px;
-  z-index: 999;
 }
 
 .row {
