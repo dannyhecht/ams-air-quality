@@ -100,21 +100,21 @@
                   },
                   'circle-opacity': 0.8
 
-                }, 'admin-2-boundaries-dispute'); // place the layer beneath this layer in the basemap
+                }, 'admin-2-boundaries-dispute'}); // place the layer beneath this layer in the basemap
 
 
               document.getElementById('slider').addEventListener('input', function(e) {
                   // get the current hour as an integer 
 
                   var hour = e.target.value;
-                  // hour = hour < 10 ? '0' + '' + hour + ':00:00+02:00': hour;
+                  hour = hour < 10 ? '0' + '' + hour + ':00:00+02:00': hour;
                   // map.setFilter(layer-name, filter)
                   filterHour = ['in', 'DateTime', hour];
                   map.setFilter('pollutants', ['all', filterHour, filterDay]); 
 
                   // converting 0-23 hour to AMPM format
-                  //var ampm = hour >= 12 ? 'PM' : 'AM';
-                  //var hour12 = hour % 12 ? hour % 12 : 12;
+                  var ampm = hour >= 12 ? 'PM' : 'AM';
+                  var hour12 = hour % 12 ? hour % 12 : 12;
                   // update text in the UI
                   document.getElementById('active-hour').innerText = hour12 + ampm;
               });
@@ -135,7 +135,7 @@
               });
         
      }); 
-     /*
+     
        var stations1 = 'ams-air-quality/data/aqi_monitoring_network.geojson';
 
         // add markers
@@ -187,7 +187,7 @@
           var libraryFeature = libraryFeatures[0];
      
         }); 
- */    
+    
 </script>
     
 </body>    
