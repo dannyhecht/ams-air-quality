@@ -113,8 +113,8 @@
                   map.setFilter('pollutants', ['all', filterHour, filterDay]); 
 
                   // converting 0-23 hour to AMPM format
-                  var ampm = hour >= 12 ? 'PM' : 'AM';
-                  var hour12 = hour % 12 ? hour % 12 : 12;
+                  //var ampm = hour >= 12 ? 'PM' : 'AM';
+                  //var hour12 = hour % 12 ? hour % 12 : 12;
                   // update text in the UI
                   document.getElementById('active-hour').innerText = hour12 + ampm;
               });
