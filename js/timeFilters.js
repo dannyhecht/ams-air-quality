@@ -2,6 +2,10 @@ map.on('load', function() {
  var filterHour = ['in', 'DateTime', '12:00:00+02:00'];
  var filterDay = ['!=', 'Day', 'Bob'];
 
+ map.addSource('stad', {
+            type: 'geojson',
+            data: 'data/ams_stadhouderskade_5-01-2017.geojson'
+          });   
  map.addLayer({
                 id: 'pollutants',
                 type: 'circle',
