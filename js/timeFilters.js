@@ -1,9 +1,9 @@
 var url = 'https://github.com/dannyhecht/ams-air-quality/blob/master/data/ams_stadhouderskade_5-01-2017.geojson';
 
 map.on('load', function() {
- var filterHour = ['in', 'DateTime', '12']; 
+ var filterHour = ['==', 'Hour', 12]; 
  var filterDay = ['!=', 'Day', 'Bob'];
- var filterPollutant = ['==', 'Pollutants', 'NO2'];
+ var filterPollutant = ['==', 'Pollutant', 'NO2'];
  
  map.getSource('pollutants').setData(url);
  map.addSource('pollutants', {
@@ -20,17 +20,17 @@ map.on('load', function() {
                     property: 'Concentration',
                     stops: [
                       [0, 3],
-                      [5, 15] ]    
+                      [150, 15] ]    
                   },
                   'circle-color': {
                     property: 'Concentration',
                     stops: [
                       [0, '#2DC4B2'],
-                      [1, '#3BB3C3'],
-                      [2, '#669EC4'],
-                      [3, '#8B88B6'],
-                      [4, '#A2719B'],
-                      [5, '#AA5E79'] ]
+                      [25, '#3BB3C3'],
+                      [75, '#669EC4'],
+                      [100, '#8B88B6'],
+                      [125, '#A2719B'],
+                      [150, '#AA5E79'] ]
                   },
                   'circle-opacity': 0.8
 
@@ -41,12 +41,13 @@ map.on('load', function() {
 document.getElementById('slider').addEventListener('input', function(e) {
                   // get the current hour as an integer 
 
-                  var hour = e.target.value; //string argument
+                  var hour = parseInt(e.target.value); //string argument
                   //hour = hour < 10 ? '0' + '' + hour + ':00:00+02:00': hour;
                   // map.setFilter(layer-name, filter)
-                  filterHour = ['in', 'DateTime', hour];
+                  filterHour = ['==', 'Hour', hour];
                   map.setFilter('pollutants', ['all', filterHour, filterDay]); 
-
+                  
+                  
                   // converting 0-23 hour to AMPM format
                   var ampm = hour >= 12 ? 'PM' : 'AM';
                   var hour12 = hour % 12 ? hour % 12 : 12;
@@ -66,21 +67,7 @@ document.getElementById('filters').addEventListener('change', function(e) {
                   } else {
                     console.log('error');
                   }
-                  map.setFilter('pollutants', filterHour, filterDay);
-});
-        
-document.getElementById('dropdown').addEventListener('choose', function(e) {
-    var poll = e.target.value;
-    if (poll == 'NO2') {
-      filterPollutant = ['in', 'Pollutants', 'NO2'];
-    } else if (poll == 'NO') {
-      filterPollutant = ['in', 'Pollutants', 'NO'];
-    } else if (poll == 'PM10') {
-      filterPollutant = ['in', 'Pollutants', 'PM10'];
-    } else if (poll == 'PM25') {
-      filterPollutant = ['in', 'Pollutants', 'PM25'];
-    }
-    map.setFilter('pollutants', filterHour, filterDay, filterPollutant);
+                  map.setFilter('pollutants', filterHour, filterDay, filterPollutant);
 });
 
 /*
