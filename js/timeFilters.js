@@ -1,4 +1,4 @@
-var url = 'ams-air-quality/data/ams_stadhouderskade_5-01-2017.geojson';
+var url = 'https://github.com/dannyhecht/ams-air-quality/blob/master/data/ams_stadhouderskade_5-01-2017.geojson';
 
 map.on('load', function() {
  var filterHour = ['==', 'DateTime', '12']; // :00:00+02:00
