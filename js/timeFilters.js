@@ -1,8 +1,9 @@
 var url = 'https://github.com/dannyhecht/ams-air-quality/blob/master/data/ams_stadhouderskade_5-01-2017.geojson';
 
 map.on('load', function() {
- var filterHour = ['in', 'DateTime', '12']; 
+ var filterHour = ['in', 'DateTime', 12]; 
  var filterDay = ['!=', 'Day', 'Bob'];
+ var filterPollutant = ['==', 'Pollutants', 'NO2'];
  
  map.getSource('pollutants').setData(url);
  map.addSource('pollutants', {
@@ -12,7 +13,7 @@ map.on('load', function() {
  map.addLayer({
                 id: 'pollutants',
                 type: 'circle',
-                filter: ['all', filterHour, filterDay],
+                filter: ['all', filterHour, filterDay, filterPollutant],
                 source: 'pollutants',
                 paint: {
                   'circle-radius': {
@@ -40,7 +41,7 @@ map.on('load', function() {
 document.getElementById('slider').addEventListener('input', function(e) {
                   // get the current hour as an integer 
 
-                  var hour = parseInt(e.target.value);
+                  var hour = e.target.value; //string argument
                   //hour = hour < 10 ? '0' + '' + hour + ':00:00+02:00': hour;
                   // map.setFilter(layer-name, filter)
                   filterHour = ['in', 'DateTime', hour];
@@ -68,7 +69,19 @@ document.getElementById('filters').addEventListener('change', function(e) {
                   map.setFilter('pollutants', filterHour, filterDay);
 });
         
-  
+document.getElementById('dropdown').addEventListener('choose', function(e) {
+    var poll = e.target.value;
+    if (poll == 'NO2') {
+      filterPollutant = ['in', 'Pollutants', 'NO2'];
+    } else if (poll == 'NO') {
+      filterPollutant = ['in', 'Pollutants', 'NO'];
+    } else if (poll == 'PM10') {
+      filterPollutant = ['in', 'Pollutants', 'PM10'];
+    } else if (poll == 'PM25') {
+      filterPollutant = ['in', 'Pollutants', 'PM25'];
+    }
+    map.setFilter('pollutants', filterHour, filterDay, filterPollutant);
+});
 
 /*
 map.on('load', function() {
