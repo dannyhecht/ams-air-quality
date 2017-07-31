@@ -40,7 +40,7 @@ map.on('load', function() {
 document.getElementById('slider').addEventListener('input', function(e) {
                   // get the current hour as an integer 
 
-                  var hour = parseInt(e.target.value);
+                  var hour = e.target.value;
                   //hour = hour < 10 ? '0' + '' + hour + ':00:00+02:00': hour;
                   // map.setFilter(layer-name, filter)
                   filterHour = ['==', 'DateTime', hour];
