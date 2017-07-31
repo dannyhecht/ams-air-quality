@@ -4,7 +4,7 @@ map.on('load', function() {
 
  map.addSource('stad', {
             type: 'geojson',
-            data: 'data/ams_stadhouderskade_5-01-2017.geojson'
+            data: 'ams-air-quality/data/ams_stadhouderskade_5-01-2017.geojson'
           });   
  map.addLayer({
                 id: 'pollutants',
@@ -12,7 +12,7 @@ map.on('load', function() {
                 filter: ['all', filterHour, filterDay],
                 source: {
                   type: 'geojson',
-                  data: 'data/ams_stadhouderskade_5-01-2017.geojson'
+                  data: 'ams-air-quality/data/ams_stadhouderskade_5-01-2017.geojson'
                 },
                 paint: {
                   'circle-radius': {
@@ -43,7 +43,7 @@ document.getElementById('slider').addEventListener('input', function(e) {
                   var hour = parseInt(e.target.value);
                   //hour = hour < 10 ? '0' + '' + hour + ':00:00+02:00': hour;
                   // map.setFilter(layer-name, filter)
-                  filterHour = ['in', 'DateTime', hour];
+                  filterHour = ['==', 'DateTime', hour];
                   map.setFilter('pollutants', ['all', filterHour, filterDay]); 
 
                   // converting 0-23 hour to AMPM format
