@@ -1,5 +1,5 @@
 var url = './data/ams_stadhouderskade_5-01-2017.geojson';
-
+/*
 map.on('load', function() {
  var filterHour = ['==', 'Hour', 12]; 
  var filterDay = ['!=', 'Day', 'Bob'];
@@ -45,8 +45,8 @@ document.getElementById('slider').addEventListener('input', function(e) {
                   //hour = hour < 10 ? '0' + '' + hour + ':00:00+02:00': hour;
                   // map.setFilter(layer-name, filter)
                   filterHour = ['==', 'Hour', hour];
-                  //map.setFilter('pollutants', ['all', filterHour, filterDay]); 
-                  map.setFilter('pollutants', ['==', 'Hour', hour]); 
+                  map.setFilter('pollutants', ['all', filterHour, filterDay]); 
+                  
                   
                   
                   // converting 0-23 hour to AMPM format
@@ -70,8 +70,8 @@ document.getElementById('filters').addEventListener('change', function(e) {
                   }
                   map.setFilter('pollutants', filterHour, filterDay, filterPollutant);
 });
+*/
 
-/*
 map.on('load', function() {
   map.addLayer({
     id: 'collisions',
@@ -83,14 +83,14 @@ map.on('load', function() {
     },
     paint: {
       'circle-radius': {
-        property: 'Casualty',
+        property: 'Concentration',
         stops: [
           [0, 3],
           [5, 15]
         ]
       },
       'circle-color': {
-        property: 'Casualty',
+        property: 'Concentration',
         stops: [
           [0, '#2DC4B2'],
           [1, '#3BB3C3'],
@@ -132,7 +132,7 @@ document.getElementById('filters').addEventListener('change', function(e) {
   }
   map.setFilter('collisions', filterDay);
 });
-*/
+
 
 
 
