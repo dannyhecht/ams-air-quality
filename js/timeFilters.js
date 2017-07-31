@@ -1,7 +1,7 @@
 var url = 'https://github.com/dannyhecht/ams-air-quality/blob/master/data/ams_stadhouderskade_5-01-2017.geojson';
 
 map.on('load', function() {
- var filterHour = [in', 'DateTime', '12']; // :00:00+02:00
+ var filterHour = ['in', 'DateTime', '12']; 
  var filterDay = ['!=', 'Day', 'Bob'];
  
  map.getSource('pollutants').setData(url);
