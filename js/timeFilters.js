@@ -79,7 +79,7 @@ map.on('load', function() {
     filter: ['==', 'Hour', 12],
     source: {
       type: 'geojson',
-      data: 'ams-air-quality/data/ams_stadhouderskade_5-01-2017_test.geojson' 
+      data: 'https://embed.github.com/view/geojson/dannyhecht/ams-air-quality/data/ams_stadhouderskade_5-01-2017_test.geojson' 
     },
     paint: {
       'circle-radius': {
