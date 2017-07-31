@@ -74,12 +74,12 @@ document.getElementById('filters').addEventListener('change', function(e) {
 
 map.on('load', function() {
   map.addLayer({
-    id: 'collisions',
+    id: 'airQuality',
     type: 'circle',
     filter: ['==', 'Hour', 12],
     source: {
       type: 'geojson',
-      data: 'data/stadhouderskade_5-01-2017.geojson' 
+      data: 'ams-air-quality/data/ams_stadhouderskade_5-01-2017.geojson' 
     },
     paint: {
       'circle-radius': {
@@ -109,7 +109,7 @@ document.getElementById('slider').addEventListener('input', function(e) {
   // get the current hour as an integer
   var hour = parseInt(e.target.value);
   // map.setFilter(layer-name, filter)
-  map.setFilter('collisions', ['==', 'Hour', hour]);
+  map.setFilter('airQuality', ['==', 'Hour', hour]);
 
   // converting 0-23 hour to AMPM format
   var ampm = hour >= 12 ? 'PM' : 'AM';
@@ -130,7 +130,7 @@ document.getElementById('filters').addEventListener('change', function(e) {
   } else {
     console.log('error');
   }
-  map.setFilter('collisions', filterDay);
+  map.setFilter('airQuality', filterDay);
 });
 
 
