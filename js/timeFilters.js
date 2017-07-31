@@ -45,7 +45,8 @@ document.getElementById('slider').addEventListener('input', function(e) {
                   //hour = hour < 10 ? '0' + '' + hour + ':00:00+02:00': hour;
                   // map.setFilter(layer-name, filter)
                   filterHour = ['==', 'Hour', hour];
-                  map.setFilter('pollutants', ['all', filterHour, filterDay]); 
+                  //map.setFilter('pollutants', ['all', filterHour, filterDay]); 
+                  map.setFilter('pollutants', ['==', 'Hour', hour]); 
                   
                   
                   // converting 0-23 hour to AMPM format
