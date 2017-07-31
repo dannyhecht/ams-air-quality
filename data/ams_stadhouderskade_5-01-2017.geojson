@@ -8,7 +8,7 @@
        "coordinates":  [ 4.899696,52.35808 ]
     },
     "properties": {
-    "DateTime":"2017-05-01 2",
+    "DateTime":"2",
     "Day":"Mon",
     "Station":"Amsterdam-Stadhouderskade",
     "Pollutant":"C6H6",
@@ -338,7 +338,7 @@
        "coordinates":  [ 4.899696,52.35808 ]
     },
     "properties": {
-    "DateTime":"2017-05-01 5",
+    "DateTime":"5",
     "Day":"Mon",
     "Station":"Amsterdam-Stadhouderskade",
     "Pollutant":"PM25",
@@ -608,7 +608,7 @@
        "coordinates":  [ 4.899696,52.35808 ]
     },
     "properties": {
-    "DateTime":"2017-05-01 8",
+    "DateTime":"8",
     "Day":"Mon",
     "Station":"Amsterdam-Stadhouderskade",
     "Pollutant":"NO",
@@ -1088,7 +1088,7 @@
        "coordinates":  [ 4.899696,52.35808 ]
     },
     "properties": {
-    "DateTime":"2017-05-01 12",
+    "DateTime":"12",
     "Day":"Mon",
     "Station":"Amsterdam-Stadhouderskade",
     "Pollutant":"NO",
