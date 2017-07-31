@@ -1,5 +1,5 @@
 map.on('load', function() {
- var filterHour = ['in', 'DateTime', '12']; // :00:00+02:00
+ var filterHour = ['==', 'DateTime', '12']; // :00:00+02:00
  var filterDay = ['!=', 'Day', 'Bob'];
 
  map.addSource('stad', {
