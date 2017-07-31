@@ -1,7 +1,7 @@
 var url = 'https://github.com/dannyhecht/ams-air-quality/blob/master/data/ams_stadhouderskade_5-01-2017.geojson';
 
 map.on('load', function() {
- var filterHour = ['==', 'DateTime', '12']; // :00:00+02:00
+ var filterHour = ['==', 'Hour', '12']; // :00:00+02:00
  var filterDay = ['!=', 'Day', 'Bob'];
  
  map.getSource('pollutants').setData(url);
@@ -43,7 +43,7 @@ document.getElementById('slider').addEventListener('input', function(e) {
                   var hour = e.target.value;
                   //hour = hour < 10 ? '0' + '' + hour + ':00:00+02:00': hour;
                   // map.setFilter(layer-name, filter)
-                  filterHour = ['==', 'DateTime', hour];
+                  filterHour = ['==', 'Hour', hour];
                   map.setFilter('pollutants', ['all', filterHour, filterDay]); 
 
                   // converting 0-23 hour to AMPM format
