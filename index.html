@@ -72,9 +72,9 @@
 var url = 'https://github.com/dannyhecht/ams-air-quality/blob/master/data/ams_stadhouderskade_5-01-2017.geojson';
 
 map.on('load', function() {
- var filterHour = ['==', 'DateTime', '12']; 
+ var filterHour = ['==', 'Hour', 12]; 
  var filterDay = ['!=', 'Day', 'Bob'];
- var filterPollutant = ['==', 'Pollutants', 'NO2'];
+ var filterPollutant = ['==', 'Pollutant', 'NO2'];
  
  map.getSource('pollutants').setData(url);
  map.addSource('pollutants', {
@@ -112,16 +112,16 @@ map.on('load', function() {
 document.getElementById('slider').addEventListener('input', function(e) {
                   // get the current hour as an integer 
 
-                  var hour = e.target.value; //string argument
+                  var hour = parseInt(e.target.value); //string argument
                   //hour = hour < 10 ? '0' + '' + hour + ':00:00+02:00': hour;
                   // map.setFilter(layer-name, filter)
-                  filterHour = ['==', 'DateTime', hour];
+                  filterHour = ['==', 'Hour', hour];
                   map.setFilter('pollutants', ['all', filterHour, filterDay]); 
                   
                   
                   // converting 0-23 hour to AMPM format
-                  var ampm = parseInt(hour) >= 12 ? 'PM' : 'AM';
-                  var hour12 = parseInt(hour) % 12 ? parseInt(hour) % 12 : 12;
+                  var ampm = hour >= 12 ? 'PM' : 'AM';
+                  var hour12 = hour % 12 ? hour % 12 : 12;
                   // update text in the UI
                   document.getElementById('active-hour').innerText = hour12 + ampm;
 });
@@ -138,7 +138,7 @@ document.getElementById('filters').addEventListener('change', function(e) {
                   } else {
                     console.log('error');
                   }
-                  map.setFilter('pollutants', filterHour, filterDay);
+                  map.setFilter('pollutants', filterHour, filterDay, filterPollutant);
 });   
     /*
        var stations1 = 'https://github.com/dannyhecht/ams-air-quality/blob/master/data/aqi_monitoring_network.geojson';
