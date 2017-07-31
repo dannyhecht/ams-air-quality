@@ -61,6 +61,9 @@
           center: [4.899431, 52.379189], // long lat
           zoom: 11.8 // starting zoom
     });
+    </script>
+    
+    <script>
         
     // Add geolocate control to the map.
     map.addControl(new mapboxgl.GeolocateControl({
@@ -70,27 +73,22 @@
         trackUserLocation: true
     }));
      
-    
+   
 
-
-
-       var stations1 = 'data/aqi_monitoring_network.geojson';
+       var stations1 = 'https://github.com/dannyhecht/ams-air-quality/blob/master/data/aqi_monitoring_network.geojson';
 
         // add markers
         map.on('load', function() {
           map.addSource('stations1', {
             type: 'geojson',
-            data: 'data/aqi_monitoring_network.geojson'
+            data: 'https://github.com/dannyhecht/ams-air-quality/blob/master/data/aqi_monitoring_network.geojson'
           });   
 
 
           map.addLayer({
             id: 'point',
             type: 'symbol',
-            source: {
-              type: 'geojson',
-              data: stations1
-            },
+            source: stations1,
             layout: {
               'icon-image': 'marker-15'
             },
