@@ -112,13 +112,13 @@ map.on('load', function() {
 document.getElementById('slider').addEventListener('input', function(e) {
                   // get the current hour as an integer 
 
-                  var hour = parseInt(e.target.value); //string argument
+                  var hour = e.target.value; //string argument
                   //hour = hour < 10 ? '0' + '' + hour + ':00:00+02:00': hour;
                   // map.setFilter(layer-name, filter)
                   filterHour = ['==', 'DateTime', hour];
                   map.setFilter('pollutants', ['all', filterHour, filterDay]); 
                   
-                  
+                  hour = parseInt(hour);
                   // converting 0-23 hour to AMPM format
                   var ampm = hour >= 12 ? 'PM' : 'AM';
                   var hour12 = hour % 12 ? hour % 12 : 12;
