@@ -1,19 +1,19 @@
+var url = 'ams-air-quality/data/ams_stadhouderskade_5-01-2017.geojson';
+
 map.on('load', function() {
  var filterHour = ['==', 'DateTime', '12']; // :00:00+02:00
  var filterDay = ['!=', 'Day', 'Bob'];
-
- map.addSource('stad', {
+ 
+ map.getSource('pollutants').setData(url);
+ map.addSource('pollutants', {
             type: 'geojson',
-            data: 'ams-air-quality/data/ams_stadhouderskade_5-01-2017.geojson'
+            data: url
           });   
  map.addLayer({
                 id: 'pollutants',
                 type: 'circle',
                 filter: ['all', filterHour, filterDay],
-                source: {
-                  type: 'geojson',
-                  data: 'ams-air-quality/data/ams_stadhouderskade_5-01-2017.geojson'
-                },
+                source: 'pollutants',
                 paint: {
                   'circle-radius': {
                     property: 'Concentration',
