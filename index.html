@@ -118,10 +118,10 @@ document.getElementById('slider').addEventListener('input', function(e) {
                   filterHour = ['==', 'DateTime', hour];
                   map.setFilter('pollutants', ['all', filterHour, filterDay]); 
                   
-                  hour = parseInt(hour);
+                  
                   // converting 0-23 hour to AMPM format
-                  var ampm = hour >= 12 ? 'PM' : 'AM';
-                  var hour12 = hour % 12 ? hour % 12 : 12;
+                  var ampm = parseInt(hour) >= 12 ? 'PM' : 'AM';
+                  var hour12 = parseInt(hour) % 12 ? parseInt(hour) % 12 : 12;
                   // update text in the UI
                   document.getElementById('active-hour').innerText = hour12 + ampm;
 });
