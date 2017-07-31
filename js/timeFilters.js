@@ -1,5 +1,5 @@
 map.on('load', function() {
- var filterHour = ['in', 'DateTime', '12:00:00+02:00'];
+ var filterHour = ['in', 'DateTime', '12']; // :00:00+02:00
  var filterDay = ['!=', 'Day', 'Bob'];
 
  map.addSource('stad', {
@@ -41,7 +41,7 @@ document.getElementById('slider').addEventListener('input', function(e) {
                   // get the current hour as an integer 
 
                   var hour = parseInt(e.target.value);
-                  hour = hour < 10 ? '0' + '' + hour + ':00:00+02:00': hour;
+                  //hour = hour < 10 ? '0' + '' + hour + ':00:00+02:00': hour;
                   // map.setFilter(layer-name, filter)
                   filterHour = ['in', 'DateTime', hour];
                   map.setFilter('pollutants', ['all', filterHour, filterDay]); 
