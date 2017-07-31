@@ -74,7 +74,7 @@ document.getElementById('filters').addEventListener('change', function(e) {
 
 map.on('load', function() {
   map.addLayer({
-    id: 'airQuality',
+    id: 'collisions',
     type: 'circle',
     filter: ['==', 'Hour', 12],
     source: {
@@ -109,7 +109,7 @@ document.getElementById('slider').addEventListener('input', function(e) {
   // get the current hour as an integer
   var hour = parseInt(e.target.value);
   // map.setFilter(layer-name, filter)
-  map.setFilter('airQuality', ['==', 'Hour', hour]);
+  map.setFilter('collisions', ['==', 'Hour', hour]);
 
   // converting 0-23 hour to AMPM format
   var ampm = hour >= 12 ? 'PM' : 'AM';
@@ -130,7 +130,7 @@ document.getElementById('filters').addEventListener('change', function(e) {
   } else {
     console.log('error');
   }
-  map.setFilter('airQuality', filterDay);
+  map.setFilter('collisions', filterDay);
 });
 
 
