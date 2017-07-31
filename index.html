@@ -64,17 +64,7 @@
     </script>
     
     <script>
-        
-    // Add geolocate control to the map.
-    map.addControl(new mapboxgl.GeolocateControl({
-        positionOptions: {
-            enableHighAccuracy: true
-        },
-        trackUserLocation: true
-    }));
-     
-   
-
+    
        var stations1 = 'https://github.com/dannyhecht/ams-air-quality/blob/master/data/aqi_monitoring_network.geojson';
 
         // add markers
@@ -129,6 +119,7 @@
 </script>
 <script src='js/toggleLayers.js'></script>
 <script src='js/filterLayers.js'></script>    
-<script src='js/timeFilters.js'></script>   
+<script src='js/timeFilters.js'></script> 
+<script src='js/geolocate.js'></script>
 </body>    
 </html>
