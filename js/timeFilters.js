@@ -1,4 +1,4 @@
-var url = './data/ams_stadhouderskade_5-01-2017.geojson';
+var url = '../data/ams_stadhouderskade_5-01-2017.geojson';
 
 map.on('load', function() {
  var filterHour = ['==', 'Hour', 12]; 
