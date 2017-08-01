@@ -233,7 +233,7 @@
                 property: 'Concentration',
                 stops: [
                   [0, 3],
-                  [150, 15]
+                  [15, 15]
                 ]
               },
               'circle-color': {
@@ -298,28 +298,8 @@
 
       map.getCanvas().style.cursor = features.length ? 'pointer' : '';
     });
-
-
-        
-        
-/*
-    
-
-
-        // user event handle: mouse click
-        map.on('click', function(e) {
-          // Return any features from the 'libraries' layer whenever the map is clicked
-          var libraryFeatures = map.queryRenderedFeatures(e.point, { layers: ['stations1'] });
-          if (!libraryFeatures.length) {
-            return;
-          }
-          var libraryFeature = libraryFeatures[0];
      
-        }); 
-  */      
 </script>       
-<!-- <script src='js/toggleLayers.js'></script> -->
-<!-- <script src='js/filterLayers.js'></script>  -->  
 <!-- <script src='js/stationMarkers.js'></script> -->
 <!-- <script src='js/timeFilters.js'></script> -->
 <script src='js/geolocate.js'></script>
