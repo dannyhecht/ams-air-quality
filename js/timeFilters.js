@@ -13,7 +13,7 @@ var url = '../data/ams_vondelpark_5-01-2017.geojson';
      map.addLayer({
                     id: 'pollutants',
                     type: 'circle',
-                    filter: ['all', filterHour, filterDay, filterPollutant],
+                    filter: ['all', filterHour, filterDay],
                     source: 'pollutants',
                     paint: {
                       'circle-radius': {
@@ -45,7 +45,7 @@ var url = '../data/ams_vondelpark_5-01-2017.geojson';
                       //hour = hour < 10 ? '0' + '' + hour + ':00:00+02:00': hour;
                       // map.setFilter(layer-name, filter)
                       filterHour = ['==', 'Hour', hour];
-                      map.setFilter('pollutants', ['all', filterHour, filterDay, filterPollutant]); 
+                      map.setFilter('pollutants', ['all', filterHour, filterDay]); 
 
 
 
