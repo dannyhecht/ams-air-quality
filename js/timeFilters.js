@@ -1,3 +1,4 @@
+/*
 var url = '../data/ams_vondelpark_5-01-2017.geojson';
 
     map.on('load', function() {
@@ -71,9 +72,9 @@ var url = '../data/ams_vondelpark_5-01-2017.geojson';
                       map.setFilter('pollutants', filterHour, filterDay, filterPollutant);
     });   
 
+*/
 
 
-/*
 map.on('load', function() {
   map.addLayer({
     id: 'collisions',
@@ -81,25 +82,25 @@ map.on('load', function() {
     filter: ['==', 'Hour', 12],
     source: {
       type: 'geojson',
-      data: 'https://embed.github.com/view/geojson/dannyhecht/ams-air-quality/data/ams_stadhouderskade_5-01-2017_test.geojson' 
+      data: 'https://embed.github.com/view/geojson/dannyhecht/ams-air-quality/data/ams_vondelpark_5-01-2017.geojson' 
     },
     paint: {
       'circle-radius': {
         property: 'Concentration',
         stops: [
           [0, 3],
-          [5, 15]
+          [150, 15]
         ]
       },
       'circle-color': {
         property: 'Concentration',
         stops: [
           [0, '#2DC4B2'],
-          [1, '#3BB3C3'],
-          [2, '#669EC4'],
-          [3, '#8B88B6'],
-          [4, '#A2719B'],
-          [5, '#AA5E79']
+          [25, '#3BB3C3'],
+          [75, '#669EC4'],
+          [100, '#8B88B6'],
+          [125, '#A2719B'],
+          [150, '#AA5E79']
         ]
       },
       'circle-opacity': 0.8
