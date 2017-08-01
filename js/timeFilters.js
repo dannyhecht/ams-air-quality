@@ -8,7 +8,7 @@ var url = '../data/ams_vondelpark_5-01-2017.geojson';
      map.getSource('pollutants').setData(url);
      map.addSource('pollutants', {
                 type: 'geojson',
-                data: url
+                data: '../data/ams_vondelpark_5-01-2017.geojson'
               });   
      map.addLayer({
                     id: 'pollutants',
