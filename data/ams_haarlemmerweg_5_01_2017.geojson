@@ -1,0 +1,1477 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":2,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":26.9,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":2,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":48.9,
+    "AQI":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":3,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":18.9,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":3,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":51.2,
+    "AQI":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":4,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":12.2,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":4,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":36.9,
+    "AQI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":5,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":11.5,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":5,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":38.5,
+    "AQI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":6,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":37,
+    "AQI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":6,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":11.7,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":7,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":45.1,
+    "AQI":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":7,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":16.4,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":8,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":18.5,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":8,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":40.9,
+    "AQI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":9,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":12,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":9,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":29.4,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":10,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":19.2,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":10,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":36.9,
+    "AQI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":11,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":22,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":11,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":36.4,
+    "AQI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":12,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":15.3,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":12,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":29.8,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":13,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":13.5,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":13,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":30.1,
+    "AQI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":14,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":12.5,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":14,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":28.2,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":15,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":12.4,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":15,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":33.4,
+    "AQI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":16,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":14.6,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":16,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":35.1,
+    "AQI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":17,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":18.7,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":17,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":38.4,
+    "AQI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":18,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":17.7,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":18,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":40.4,
+    "AQI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":19,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":19.2,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":19,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":43.7,
+    "AQI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":20,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":20.1,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":20,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":48.8,
+    "AQI":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":21,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":17.5,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":21,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":57.4,
+    "AQI":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":22,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":10.4,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":22,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":37.1,
+    "AQI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":23,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":10,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":23,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":27.3,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":0,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":6.5,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":0,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":26,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":1,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":31.5,
+    "AQI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":1,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":6.9,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":2,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":33.4,
+    "AQI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":2,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":8,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":3,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":5.1,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":3,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":23.4,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":4,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":3,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":4,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":17.8,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":5,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":2.4,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":5,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":16.5,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":6,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":9.3,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":6,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":19.8,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":7,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":26.3,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":7,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":44.5,
+    "AQI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":8,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":97.2,
+    "AQI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":8,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":88.8,
+    "AQI":7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":9,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":111.3,
+    "AQI":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":9,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":96.8,
+    "AQI":7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":10,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":97.9,
+    "AQI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":10,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":80.4,
+    "AQI":7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":11,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":74,
+    "AQI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":11,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":71.5,
+    "AQI":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":12,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":63.1,
+    "AQI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":12,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":64.9,
+    "AQI":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":13,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":49.9,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":13,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":60,
+    "AQI":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":14,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":57.8,
+    "AQI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":14,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":60.6,
+    "AQI":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":15,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":69.2,
+    "AQI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":15,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":68.6,
+    "AQI":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":16,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":48,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":16,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":71.1,
+    "AQI":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":17,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":46.1,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":17,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":65.4,
+    "AQI":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":18,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":71,
+    "AQI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":18,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":78.4,
+    "AQI":7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":19,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":74.7,
+    "AQI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":19,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":76.3,
+    "AQI":7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":20,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":70.4,
+    "AQI":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":20,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":50.7,
+    "AQI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":21,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":72.4,
+    "AQI":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":21,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":49.2,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":22,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":57.8,
+    "AQI":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":22,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":26.9,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":23,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO",
+    "Concentration":24.3,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.875582,52.385449 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":23,
+    "Station":"Amsterdam-Haarlemmerweg",
+    "Pollutant":"NO2",
+    "Concentration":59.9,
+    "AQI":5
+    }
+  }
+]
+}
