@@ -1,4 +1,4 @@
-var url = '../data/ams_stadhouderskade_5-01-2017.geojson';
+var url = '/data/ams_stadhouderskade_5-01-2017.geojson';
 
 map.on('load', function() {
  var filterHour = ['==', 'Hour', 12]; 
@@ -45,7 +45,7 @@ document.getElementById('slider').addEventListener('input', function(e) {
                   //hour = hour < 10 ? '0' + '' + hour + ':00:00+02:00': hour;
                   // map.setFilter(layer-name, filter)
                   filterHour = ['==', 'Hour', hour];
-                  map.setFilter('pollutants', ['all', filterHour, filterDay]); 
+                  map.setFilter('pollutants', ['all', filterHour, filterDay, filterPollutant]); 
                   
                   
                   
