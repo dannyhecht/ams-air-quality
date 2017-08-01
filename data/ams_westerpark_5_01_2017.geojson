@@ -1,0 +1,2181 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":2,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":0,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":2,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":11.4,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":2,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":17.4,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":3,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":0.1,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":3,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":15.2,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":3,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":11.7,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":4,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":0.7,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":4,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":14.4,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":4,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":11.6,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":5,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":0.7,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":5,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":17.9,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":5,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":21.5,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":6,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":1.6,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":6,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":12.7,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":6,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":15.6,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":7,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":0.8,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":8,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":1.2,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":8,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":18.5,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":8,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":20.1,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":9,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":3.1,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":9,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":16.6,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":9,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":21.1,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":10,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":3.1,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":10,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":16.4,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":10,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":30.5,
+    "AQI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":11,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":3.3,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":11,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":24.4,
+    "AQI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":11,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":28.1,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":12,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":3.1,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":12,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":17.3,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":12,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":30,
+    "AQI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":13,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":2.1,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":13,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":18.8,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":13,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":25,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":14,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":2.3,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":14,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":18.6,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":14,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":34.9,
+    "AQI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":15,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":2.9,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":15,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":16.6,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":15,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":39.5,
+    "AQI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":16,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":1.2,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":16,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":17,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":16,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":29.5,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":17,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":2,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":17,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":17.4,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":17,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":32.4,
+    "AQI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":18,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":2,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":18,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":13.6,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":18,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":23.7,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":19,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":2.3,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":19,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":13.6,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":19,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":16.7,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":20,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":2.4,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":20,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":13.8,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":20,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":20.1,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":21,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":2.3,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":21,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":15,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":21,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":16.4,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":22,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":0.9,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":22,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":15.1,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":22,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":12.4,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":23,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":0.5,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":23,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":14.5,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-04-30",
+    "Day":"Sun",
+    "Hour":23,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":19.6,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":0,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":0.5,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":0,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":16.9,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":0,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":15.2,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":1,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":0.7,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":1,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":21.6,
+    "AQI":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":1,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":15.6,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":2,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":0.9,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":2,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":13.6,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":2,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":22.5,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":3,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":0.8,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":3,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":16.3,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":3,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":25,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":4,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":0.6,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":4,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":16.2,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":4,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":23.8,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":5,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":0.8,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":5,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":15.8,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":5,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":19.5,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":6,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":1.1,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":6,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":17,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":6,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":22.5,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":7,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":1.2,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":7,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":16.9,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":7,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":24.9,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":8,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":1.3,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":8,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":17.9,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":8,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":21.9,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":9,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":0.6,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":9,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":11,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":9,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":13.7,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":10,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":0.5,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":10,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":11,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":10,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":13.9,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":11,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":0.4,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":11,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":9.6,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":11,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":6,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":12,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":0.5,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":12,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":8.1,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":12,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":9.5,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":13,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":0.5,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":13,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":8.8,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":13,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":14.1,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":14,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":0.4,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":14,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":11,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":14,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":14.3,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":15,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":0.4,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":15,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":11,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":15,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":14.6,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":16,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":0.3,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":16,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":14.6,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":16,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":17.4,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":17,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":0.7,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":17,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":8.1,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":17,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":15,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":18,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":0.4,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":18,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":10.4,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":18,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":18.5,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":19,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":0.5,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":19,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":10.6,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":19,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":12,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":20,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":0.5,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":20,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":9.4,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":20,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":12.6,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":21,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":0.5,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":21,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":9.3,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":21,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":12.9,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":22,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":0.2,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":22,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":15,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":22,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":22.7,
+    "AQI":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":23,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"SO2",
+    "Concentration":0.2,
+    "AQI":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":23,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM25",
+    "Concentration":10,
+    "AQI":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.870355,52.394126 ]
+    },
+    "properties": {
+    "Date":"2017-05-01",
+    "Day":"Mon",
+    "Hour":23,
+    "Station":"Amsterdam-Westerpark",
+    "Pollutant":"PM10",
+    "Concentration":17.6,
+    "AQI":2
+    }
+  }
+]
+}
