@@ -1,10 +1,10 @@
-var stations1 = 'https://github.com/dannyhecht/ams-air-quality/blob/master/data/aqi_monitoring_network.geojson';
+var stations1 = 'data/aqi_monitoring_network.geojson';
 
         // add markers
         map.on('load', function() {
           map.addSource('stations1', {
             type: 'geojson',
-            data: './data/aqi_monitoring_network.geojson'
+            data: 'data/aqi_monitoring_network.geojson'
           });   
 
 
