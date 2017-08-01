@@ -4,8 +4,8 @@
     <meta charset='utf-8' />
     <title> Air Quality Monitoring </title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.39.1/mapbox-gl.js'></script>
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.39.1/mapbox-gl.css' rel='stylesheet' />
+    <!-- <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.39.1/mapbox-gl.js'></script> -->
+    <!-- <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.39.1/mapbox-gl.css' rel='stylesheet' /> -->
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.css' rel='stylesheet' />
     <link rel="stylesheet" type="text/css" href="css/style.css">   
@@ -67,7 +67,7 @@
           zoom: 11.8 // starting zoom
     });
   
-     var url = '/data/ams_stadhouderskade_5-01-2017.geojson';
+     var url = 'data/ams_stadhouderskade_5-01-2017.geojson';
 
     map.on('load', function() {
      var filterHour = ['==', 'Hour', 12]; 
