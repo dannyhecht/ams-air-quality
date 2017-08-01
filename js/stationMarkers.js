@@ -9,10 +9,11 @@ var stations1 = 'data/aqi_monitoring_network.geojson';
 
 
           map.addLayer({
-            id: 'point',
+            id: 'points',
             type: 'symbol',
-            source: {  
-                                 {
+            source: {  "type": "geojson",
+            "data":
+                   {
                    "type": "FeatureCollection",
                    "features": [
                   {
