@@ -1,5 +1,5 @@
 var url = './data/ams_stadhouderskade_5-01-2017.geojson';
-/*
+
 map.on('load', function() {
  var filterHour = ['==', 'Hour', 12]; 
  var filterDay = ['!=', 'Day', 'Bob'];
@@ -70,8 +70,9 @@ document.getElementById('filters').addEventListener('change', function(e) {
                   }
                   map.setFilter('pollutants', filterHour, filterDay, filterPollutant);
 });
-*/
 
+
+/*
 map.on('load', function() {
   map.addLayer({
     id: 'collisions',
@@ -133,7 +134,7 @@ document.getElementById('filters').addEventListener('change', function(e) {
   map.setFilter('collisions', filterDay);
 });
 
-
+*/
 
 
 
