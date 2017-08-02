@@ -311,32 +311,12 @@
     // Use the same approach as above to indicate that the symbols are clickable
     // by changing the cursor style to 'pointer'.
     map.on('mousemove', function (e) {
-    map.featuresAt(e.point, {layer: 'markers', radius: 10}, function (err, features) {
+    map.featuresAt(e.point, {layer: 'stations', radius: 10}, function (err, features) {
         if (err) throw err;
         map.getCanvas().style.cursor = features.length ? 'pointer' : '';
         });
     });
         
-   /*     
-    // stations popup info    
-    var popup = new mapboxgl.Popup();
-
-    map.on('mousemove', function(e) {
-      var features = map.queryRenderedFeatures(e.point, { layers: stations1 });
-      if (!features.length) {
-        popup.remove();
-        return;
-      }
-      var feature = features[0];
-
-      popup.setLngLat(feature.geometry.coordinates)
-      .setHTML(feature.properties.Station)
-      .setHTML(feature.properties.type)
-      .addTo(map);
-
-      map.getCanvas().style.cursor = features.length ? 'pointer' : '';
-    });
-  */   
 </script>       
 <!-- <script src='js/stationMarkers.js'></script> -->
 <!-- <script src='js/timeFilters.js'></script> -->
