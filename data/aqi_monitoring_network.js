@@ -150,7 +150,7 @@ var stations = {
                        data:  stations
                      },
             layout: {
-              'icon-image': 'marker-15',
+              'icon-image': 'marker-12',
               'icon-allow-overlap': true,
               'icon-size': 1.25,
               "text-font": "Open Sans Semibold, Arial Unicode MS Bold",
