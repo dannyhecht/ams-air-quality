@@ -207,7 +207,7 @@
     });
  
     
-    map.on('load', function() {
+    map.on('style.load', function() {
           map.addSource("points", {
             "type": "geojson",
             "data": stations
@@ -215,7 +215,7 @@
          
           map.addLayer({
             id: 'points',
-            interactive: true, 
+           // interactive: true, 
             type: 'symbol',
             source: {  type: 'geojson',
                        data:  stations
