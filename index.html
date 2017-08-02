@@ -22,7 +22,10 @@
       <p>Data: <a href='https://www.luchtmeetnet.nl/download'>Pollution Concentrations</a> in Amsterdam, The Netherlands</p>
 
       <div class='session'>
-          <h2>O3 Concentration (μg/m3)</h2>
+          <h2><select id="pollutant">
+		  <option value="NO" >NO</option>
+          <option value="NO2" selected >NO2</option>
+       	  </select> Concentration (μg/m3)</h2>
           <div class='row colors'></div>
           <div class='row labels'>
             <div class='label'>0</div>
@@ -52,7 +55,7 @@
       </div>
 
        <div class='session'>
-	    <h2> Pollutant: </h2> <select id="pollutant">
+	    <h2> Pollutant </h2> <select id="pollutant">
 		  <option value="NO" >NO</option>
           <option value="NO2" selected >NO2</option>
        	  </select>
