@@ -1,4 +1,12 @@
-var stations =  ['ams-air-quality/data/ams-stadhouderskade_5-01-2017_5-12-2017.csv', 'ams-air-quality/data/ams-stadhouderskade_5-01-2017.csv'];
+/* CSV of all stations in Amsterdam for concentrations of different pollutants for each hour
+
+Filter - 
+Pollutant = NO
+Day = 05-01-2017
+Hour = 12
+*/
+
+var data_5-01-2017 =  '../data/ams_5-01-2017.csv';
 
 var filters = {
   'Pollutants' : ['NO2', 'NO','PM25', 'PM10'] };
@@ -8,16 +16,19 @@ function filterByID(item) {
     return true;
     
 function filterItems(query) {
-  for (var station in stations) {
     return station.filter(function(el) {
         return el.toLowerCase().indexOf(query.toLowerCase()) > -1;
     })
   }
-}
     
 
-for (var station in stations) {
-    d3.csv(station, function(csv) {
+function datafilter(d){
+var poll = document.getElementById("pollutant");
+var pollutant = poll.options[poll.selectedIndex].value;
+data = data.filter(function(d) { return d.pollutant  == poll;});
+return data;}    
+    
+d3.csv(data_5-01-2017, function(csv) {
         csv = csv.filter(function(row) {
             // run through all the filters, returning a boolean
             return ['Pollutants'].reduce(function(pass, column) {
@@ -33,4 +44,4 @@ for (var station in stations) {
             }, true);
         })
     });
-}
+
