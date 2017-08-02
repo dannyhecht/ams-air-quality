@@ -9,7 +9,7 @@ var stations = {
     },
     'properties': {
     'Station':'Amsterdam-Oude-Schans',
-    'type':'City Background'
+    'des':'City Background'
     }
   },
   {
@@ -20,7 +20,7 @@ var stations = {
     },
     'properties': {
     'Station':'Amsterdam-Stadhouderskade',
-    'type':'Street Traffic'
+    'des':'Street Traffic'
     }
   },
   {
@@ -31,7 +31,7 @@ var stations = {
     },
     'properties': {
     'Station':'Amsterdam-Vondelpark',
-    'type':'City Background'
+    'des':'City Background'
     }
   },
   {
@@ -42,7 +42,7 @@ var stations = {
     },
     'properties': {
     'Station':'Amsterdam-Jan van Galenstraat',
-    'type':'Street Traffic'
+    'des':'Street Traffic'
     }
   },
   {
@@ -53,7 +53,7 @@ var stations = {
     },
     'properties': {
     'Station':'Amsterdam-Haarlemmerweg',
-    'type':'Street Traffic'
+    'des':'Street Traffic'
     }
   },
   {
@@ -64,7 +64,7 @@ var stations = {
     },
     'properties': {
     'Station':'Amsterdam-Van Diemenstraat',
-    'type':'Street Traffic'
+    'des':'Street Traffic'
     }
   },
   {
@@ -75,7 +75,7 @@ var stations = {
     },
     'properties': {
     'Station':'Amsterdam-Westerpark',
-    'type':'City Background'
+    'des':'City Background'
     }
   },
   {
@@ -86,7 +86,7 @@ var stations = {
     },
     'properties': {
     'Station':'Amsterdam-Einsteinweg',
-    'type':'Street Traffic'
+    'des':'Street Traffic'
     }
   },
   {
@@ -97,7 +97,7 @@ var stations = {
     },
     'properties': {
     'Station':'Amsterdam-A10-West',
-    'type':'Street Traffic'
+    'des':'Street Traffic'
     }
   },
   {
@@ -108,7 +108,7 @@ var stations = {
     },
     'properties': {
     'Station':'Amsterdam-Ookmeer',
-    'type':'City Background'
+    'des':'City Background'
     }
   },
   {
@@ -119,7 +119,7 @@ var stations = {
     },
     'properties': {
     'Station':'Amsterdam-Nieuwendammerdijk',
-    'type':'City Background'
+    'des':'City Background'
     }
   },
   {
@@ -130,7 +130,7 @@ var stations = {
     },
     'properties': {
     'Station':'Amsterdam -Kantershof',
-    'type':'City Background'
+    'des':'City Background'
     }
   }
 ]
@@ -138,8 +138,8 @@ var stations = {
 
  map.on('style.load', function() {
           map.addSource("points", {
-            "type": "geojson",
-            "data": stations
+            type: 'geojson',
+            data: stations
             });
          
           map.addLayer({
@@ -172,10 +172,10 @@ var stations = {
                 // Get coordinates from the symbol and center the map on those coordinates
                 map.flyTo({center: features[0].geometry.coordinates});
                 var featureStation = features[0].properties.Station;
-                var featureType = features[0].properties.type;
+                var featureDescription = features[0].properties.des;
                 var tooltip = new mapboxgl.Popup()
                     .setLngLat(e.lngLat)
-                    .setHTML('<p>' + featureStation + featureType + '</p>')
+                    .setHTML('<p>' + featureStation + featureDescription + '</p>')
                     .addTo(map);
                 }
             });
