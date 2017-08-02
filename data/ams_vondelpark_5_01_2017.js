@@ -1,4 +1,4 @@
-{
+var vondelpark = {
    "type": "FeatureCollection",
    "features": [
   {
@@ -5138,4 +5138,4 @@
     }
   }
 ]
-}
+};
