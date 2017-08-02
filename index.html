@@ -9,7 +9,9 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src='data/ams_vondelpark_5-01-2017.js'></script>
     <script src='data/aqi_monitoring_network.js'></script>
+    <script src='data/ams_stadhouderskade_5-01-2017.js'></script>
     <script src='https://npmcdn.com/@turf/turf/turf.min.js'></script>
+    
 </head>
     
 <body>
@@ -93,7 +95,7 @@
             filter: ['==', 'Hour', 12],
             source: {
               type: 'geojson',
-              data: vondelpark 
+              data: test 
             },
             paint: {
               'circle-radius': {
