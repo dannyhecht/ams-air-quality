@@ -45,21 +45,29 @@
       <div class='session'>
           <h2>Day of the week</h2>
           <div class='row' id='filters'>
-            <input id='all' type='radio' name='toggle' value='all' checked='checked'>
-            <label for='all'>All</label>
-            <input id='weekday' type='radio' name='toggle' value='weekday'>
-            <label for='weekday'>Weekday</label>
-            <input id='weekend' type='radio' name='toggle' value='weekend'>
-            <label for='weekend'>Weekend</label>
+	    <input id='sun' type='radio' name='toggle' value='sun'>
+            <label for='sun'>Sunday</label>
+            <input id='mon' type='radio' name='toggle' value='mon' checked='checked'>
+            <label for='mon'>Monday</label>
+            <input id='tues' type='radio' name='toggle' value='tues'>
+            <label for='tues'>Tuesday</label>
+	    <input id='wed' type='radio' name='toggle' value='wed'>
+            <label for='wed'>Wednesday</label>
+ 	    <input id='thurs' type='radio' name='toggle' value='thurs'>
+            <label for='thurs'>Thursday</label>
+	    <input id='fri' type='radio' name='toggle' value='fri'>
+            <label for='fri'>Friday</label>
+	    <input id='sat' type='radio' name='toggle' value='sat'>
+            <label for='sat'>Saturday</label>
           </div>
       </div>
 
-       <div class='session'>
+      <!-- <div class='session'>
 	    <h2> Pollutant </h2> <select id="pollutant">
 		  <option value="NO" >NO</option>
           <option value="NO2" selected >NO2</option>
        	  </select>
- 	</div>
+ 	</div> -->
     
          
     </div> <!-- end console -->
@@ -150,10 +158,20 @@
               var filterDay;
               if (day === 'all') {
                 filterDay = null;
-              } else if (day === 'weekday') {
-                filterDay = ['!in', 'Day', 'Sat', 'Sun'];
-              } else if (day === 'weekend') {
-                filterDay = ['in', 'Day', 'Sat', 'Sun'];
+              } else if (day === 'sun') {
+                filterDay = ['==', 'Day','Sun'];
+              } else if (day === 'mon') {
+                filterDay = ['==', 'Day', 'Mon'];
+              } else if (day === 'tues') {
+                filterDay = ['==', 'Day', 'Tues'];
+              } else if (day === 'wed') {
+                filterDay = ['==', 'Day', 'Wed'];
+              } else if (day === 'thurs') {
+                filterDay = ['==', 'Day', 'Thurs'];
+              } else if (day === 'fri') {
+                filterDay = ['==', 'Day', 'Fri'];
+	      } else if (day === 'sat') {
+                filterDay = ['==', 'Day', 'Mon'];
               } else {
                 console.log('error');
               }
@@ -171,7 +189,7 @@
             if (features.length) {
                 // Get coordinates from the symbol and center the map on those coordinates
                 map.flyTo({center: features[0].geometry.coordinates});
-                var featureName = features[0].properties.Station;
+                var featureStation = features[0].properties.Station;
                 var featureType = features[0].properties.type;
                 var tooltip = new mapboxgl.Popup()
                     .setLngLat(e.lngLat)
