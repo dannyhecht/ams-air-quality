@@ -8,7 +8,7 @@
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.css' rel='stylesheet' />
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src='./data/ams_vondelpark_5-01-2017.js'></script>
-    <script src='./data/aqi_monitoring_network.js'></script>
+    <!-- <script src='./data/aqi_monitoring_network.js'></script>-->
     <script src='./data/ams_stadhouderskade_5-01-2017.js'></script>
     <script src='https://npmcdn.com/@turf/turf/turf.min.js'></script>
     
@@ -75,34 +75,11 @@
     mapboxgl.accessToken = 'pk.eyJ1IjoiZGhlY2h0IiwiYSI6ImNqNHRueTVyeDA3ZmYyd3FuY2NmYW9tNmoifQ.FetU2-IBDcrhTmSKBpFIfA';
     var map = new mapboxgl.Map({
           container: 'map', // container id
-          style:       'mapbox://styles/mapbox/streets-v9',    // 'mapbox://styles/dhecht/cj53sifm400tw2smg5jlerack', // stylesheet location
+          style:  'mapbox://styles/mapbox/streets-v9',    // 'mapbox://styles/dhecht/cj53sifm400tw2smg5jlerack', // stylesheet location
           center: [4.885431, 52.35963], // long lat
           zoom: 11.5 // starting zoom
     });
     map.on('style.load', function() {
-          map.addSource("points", {
-            "type": "geojson",
-            "data": stations
-            });
-         
-          map.addLayer({
-            id: 'points',
-           // interactive: true, 
-            type: 'symbol',
-            source: {  type: 'geojson',
-                       data:  stations
-                     },
-            layout: {
-              'icon-image': 'marker-15',
-              'icon-allow-overlap': true,
-              'icon-size': 1.25,
-              "text-font": "Open Sans Semibold, Arial Unicode MS Bold",
-              "text-offset": [0, 0.6],
-              "text-anchor": "top"
-            },
-            paint: {"text-size": 10 }
-          });
-        
           map.addLayer({
             id: 'collisions',
             type: 'circle',
@@ -178,7 +155,6 @@
         
 </script>       
 <script src='data/aqi_monitoring_network.js'></script>
-'></script>
 <!-- <script src='js/timeFilters.js'></script> -->
 <script src='js/geolocate.js'></script>
 </body>    
