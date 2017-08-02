@@ -16,7 +16,7 @@
 <div id='map'></div>
     
     <div id='console'>
-      <h1>Hourly Air Pollution Levels</h1>
+      <h1>Weekly Report: Air Quality Monitoring</h1>
       <p>Data: <a href='https://www.luchtmeetnet.nl/download'>Pollution Concentrations</a> in Amsterdam, The Netherlands</p>
 
       <div class='session'>
@@ -119,7 +119,7 @@
           }, 'admin-2-boundaries-dispute'); // place the layer beneath this layer in the basemap
         });
 
-        document.getElementById('slider').addEventListener('input', function(e) {
+    document.getElementById('slider').addEventListener('input', function(e) {
           // get the current hour as an integer
           var hour = parseInt(e.target.value);
           // map.setFilter(layer-name, filter)
@@ -130,9 +130,9 @@
           var hour12 = hour % 12 ? hour % 12 : 12;
           // update text in the UI
           document.getElementById('active-hour').innerText = hour12 + ampm;
-        });
+    });
 
-        document.getElementById('filters').addEventListener('change', function(e) {
+    document.getElementById('filters').addEventListener('change', function(e) {
           var day = e.target.value;
           var filterDay;
           if (day === 'all') {
@@ -145,7 +145,7 @@
             console.log('error');
           }
           map.setFilter('collisions', filterDay);
-        });    
+    });    
 
     // stations marker popup    
     map.on('click', function (e) {
