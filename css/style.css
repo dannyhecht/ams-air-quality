@@ -1,3 +1,10 @@
+#collisions {
+        z-index: 9999;
+     }
+#points {
+        z-index: 99999;
+        }
+
 body {
         margin: 0;
         padding: 0;
