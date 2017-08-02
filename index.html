@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset='utf-8' />
-    <title> Air Quality Monitoring </title>
+    <title> Weekly Report: Air Quality Monitoring </title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.css' rel='stylesheet' />
@@ -20,7 +20,7 @@
       <p>Data: <a href='https://www.luchtmeetnet.nl/download'>Pollution Concentrations</a> in Amsterdam, The Netherlands</p>
 
       <div class='session'>
-          <h2>NO2 Concentration (μg/m3)</h2>
+          <h2>O3 Concentration (μg/m3)</h2>
           <div class='row colors'></div>
           <div class='row labels'>
             <div class='label'>0</div>
@@ -63,8 +63,6 @@
           center: [4.899431, 52.379189], // long lat
           zoom: 11.8 // starting zoom
     });
- 
-    
     map.on('style.load', function() {
           map.addSource("points", {
             "type": "geojson",
@@ -120,7 +118,7 @@
             }
           }, 'admin-2-boundaries-dispute'); // place the layer beneath this layer in the basemap
         });
-
+/*
         document.getElementById('slider').addEventListener('input', function(e) {
           // get the current hour as an integer
           var hour = parseInt(e.target.value);
@@ -148,7 +146,7 @@
           }
           map.setFilter('collisions', filterDay);
         });    
-
+*/
     // stations marker popup    
     map.on('click', function (e) {
     // Use featuresAt to get features within a given radius of the click event
