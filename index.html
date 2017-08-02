@@ -60,7 +60,7 @@
 
     
     <script>
-    var stations1 = {
+    var stations = {
        "type": "FeatureCollection",
        "features": [
       {
@@ -208,14 +208,21 @@
  
     
     map.on('load', function() {
+          map.addSource("points", {
+            "type": "geojson",
+            "data": stations
+            });
+         
           map.addLayer({
             id: 'points',
+            interactive: true, 
             type: 'symbol',
             source: {  type: 'geojson',
-                       data:  stations1
+                       data:  stations
                      },
             layout: {
-              'icon-image': 'marker-15'
+              'icon-image': 'marker-15',
+              'icon-size': 1.25
             },
             paint: { }
           });
@@ -280,6 +287,28 @@
           map.setFilter('collisions', filterDay);
         });    
 
+    // stations marker popup    
+    map.on('click', function (e) {
+    // Use featuresAt to get features within a given radius of the click event
+    // Use layer option to avoid getting results from other layers
+    map.featuresAt(e.point, {layer: 'stations', radius: 10, includeGeometry: true}, function (err, features) {
+        if (err) throw err;
+        // if there are features within the given radius of the click event,
+        // fly to the location of the click event
+        if (features.length) {
+            // Get coordinates from the symbol and center the map on those coordinates
+            map.flyTo({center: features[0].geometry.coordinates});
+            var featureName = features[0].properties.Station;
+            var featureType = features[0].properties.type;
+            var tooltip = new mapboxgl.Popup()
+                .setLngLat(e.lngLat)
+                .setHTML('<p>' + featureStation + featureType + '</p>')
+                .addTo(map);
+            }
+        });
+    });    
+        
+   /*     
     // stations popup info    
     var popup = new mapboxgl.Popup();
 
@@ -298,7 +327,7 @@
 
       map.getCanvas().style.cursor = features.length ? 'pointer' : '';
     });
-     
+  */   
 </script>       
 <!-- <script src='js/stationMarkers.js'></script> -->
 <!-- <script src='js/timeFilters.js'></script> -->
