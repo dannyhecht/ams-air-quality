@@ -11,6 +11,7 @@
     <!-- <script src='./data/aqi_monitoring_network.js'></script>-->
     <script src='./data/ams_stadhouderskade_5-01-2017_test.js'></script>
     <!-- <script src='https://npmcdn.com/@turf/turf/turf.min.js'></script> -->
+    <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mapbox-gl/0.35.0/mapbox-gl.css" rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mapbox-gl/0.35.0/mapbox-gl.js"></script>
     
@@ -74,13 +75,28 @@
 
  <script>  
 mapboxgl.accessToken = 'pk.eyJ1IjoiZGhlY2h0IiwiYSI6ImNqNHRueTVyeDA3ZmYyd3FuY2NmYW9tNmoifQ.FetU2-IBDcrhTmSKBpFIfA';
+var map = L.mapbox.map('map', 'mapbox.streets-v9');
+	 .setView([4.885431, 52.35963], 11.5);
+	 
+var stationLayer = omnivore.geojson('data/aqi_monitoring_network.geojson');	 
+    .on('ready', function() {
+        // when this is fired, the layer
+        // is done being initialized
+    })
+    .on('error', function() {
+        // fired if the layer can't be loaded over AJAX
+        // or can't be parsed
+    })
+    .addTo(map);
+/*	 
 var map = new mapboxgl.Map({
           container: 'map', // container id
           style:  'mapbox://styles/mapbox/streets-v9',    // 'mapbox://styles/dhecht/cj53sifm400tw2smg5jlerack', // stylesheet location
           center: [4.885431, 52.35963], // long lat
           zoom: 11.5 // starting zoom
 });
-
+*/
+	 
  map.on('style.load', function() {
           map.addSource("points", {
 		type: 'geojson',
@@ -207,7 +223,7 @@ var map = new mapboxgl.Map({
             map.getCanvas().style.cursor = features.length ? 'pointer' : '';
             });
         });
-        
+  */     
 </script>       
 <!-- <script src='js/timeFilters.js'></script> -->
 <script src='js/geolocate.js'></script>
