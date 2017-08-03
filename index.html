@@ -222,7 +222,8 @@ var stations = {
  map.on('style.load', function() {
           map.addSource("points", {
 		type: 'geojson',
-  		data: 'https://raw.githubusercontent.com/dannyhecht/ams-air-quality/master/data/aqi_monitoring_network.geojson'
+  		data: './data/aqi_monitoring_network.geojson'
+	    //'https://raw.githubusercontent.com/dannyhecht/ams-air-quality/master/data/aqi_monitoring_network.geojson'
    	 });
          
           map.addLayer({
@@ -230,7 +231,7 @@ var stations = {
             interactive: true, 
             type: 'symbol',
             source: points,
-	    data:  stations
+	    data:  './data/aqi_monitoring_network.geojson'
                      },
             layout: {
               'icon-image': 'marker-12',
