@@ -3,13 +3,12 @@
 <head>
     <meta charset='utf-8' />
     <title> Amsterdam Air Quality Monitoring </title>
+	
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.css' rel='stylesheet' />
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script src='./data/ams_vondelpark_5-01-2017.js'></script>
-    <!-- <script src='./data/aqi_monitoring_network.js'></script>-->
-    <script src='./data/ams_stadhouderskade_5-01-2017_test.js'></script>
+    <script src='data/ams_stadhouderskade_5-01-2017_test.js'></script>
     <!-- <script src='https://npmcdn.com/@turf/turf/turf.min.js'></script> -->
     <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
     <script src='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.js'></script>
@@ -99,7 +98,7 @@ var map = new mapboxgl.Map({
 
 	 
  map.on('style.load', function() {
-          map.addSource("points", {
+          map.addSource('points', {
 		type: 'geojson',
   		data: './data/aqi_monitoring_network.geojson'
 	    //'https://raw.githubusercontent.com/dannyhecht/ams-air-quality/master/data/aqi_monitoring_network.geojson'
