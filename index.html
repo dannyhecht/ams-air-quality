@@ -217,11 +217,7 @@ var stations = {
           style:  'mapbox://styles/mapbox/streets-v9',    // 'mapbox://styles/dhecht/cj53sifm400tw2smg5jlerack', // stylesheet location
           center: [4.885431, 52.35963], // long lat
           zoom: 11.5 // starting zoom
-    });
-    var source = mapboxgl.GeoJSONSource({
-	type: 'geojson',
-  	data: 'https://raw.githubusercontent.com/dannyhecht/ams-air-quality/master/data/aqi_monitoring_network.geojson'
-    });
+  
 
  map.on('style.load', function() {
           map.addSource("points", {
@@ -233,7 +229,7 @@ var stations = {
             id: 'points',
             interactive: true, 
             type: 'symbol',
-            source: source,
+            source: points,
 	    data:  stations
                      },
             layout: {
