@@ -211,13 +211,13 @@ var geojson = {
 ]
 };
 
-
+/* 
 L.mapbox.accessToken = 'pk.eyJ1IjoiZGhlY2h0IiwiYSI6ImNqNHRueTVyeDA3ZmYyd3FuY2NmYW9tNmoifQ.FetU2-IBDcrhTmSKBpFIfA';
 var map = L.mapbox.map('map', 'mapbox.streets')
   .setView([52.35963, 4.885431], 11.5);
 
 //L.geoJson(geojson, { style: L.mapbox.simplestyle.style }).addTo(map);	 
-/* 
+
 var stationLayer = omnivore.geojson('data/aqi_monitoring_network.geojson');	 
     .on('ready', function() {
         // when this is fired, the layer
@@ -228,7 +228,7 @@ var stationLayer = omnivore.geojson('data/aqi_monitoring_network.geojson');
         // or can't be parsed
     })
     .addTo(map);
-
+*/
 mapboxgl.accessToken = 'pk.eyJ1IjoiZGhlY2h0IiwiYSI6ImNqNHRueTVyeDA3ZmYyd3FuY2NmYW9tNmoifQ.FetU2-IBDcrhTmSKBpFIfA';
 var map = new mapboxgl.Map({
           container: 'map', // container id
@@ -237,7 +237,7 @@ var map = new mapboxgl.Map({
           zoom: 11.5 // starting zoom
 });
 
-*/	 
+	 
  map.on('style.load', function() {
           map.addSource('points', {
 		type: 'geojson',
