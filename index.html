@@ -105,14 +105,14 @@ var map = new mapboxgl.Map({
    	 });
          
           map.addLayer({
-            id: 'points',
-            interactive: true, 
-            type: 'symbol',
-            source: { 
+            "id": 'points',
+            "interactive": true, 
+            "type": 'symbol',
+            "source": { 
 		type:'geojson',
 	      	data:'./data/aqi_monitoring_network.geojson'
                      },
-            layout: {
+            "layout": {
               'icon-image': 'marker-12',
               'icon-allow-overlap': true,
               'icon-size': 1.25,
@@ -120,18 +120,18 @@ var map = new mapboxgl.Map({
               "text-offset": [0, 0.6],
               "text-anchor": "top"
             },
-            paint: {"text-size": 10 }
+            "paint" : {"text-size": 10 }
           });
     
           map.addLayer({
-            id: 'collisions',
-            type: 'circle',
-            filter: ['==', 'Hour', 12],
-            source: {
+            'id': 'collisions',
+            'type': 'circle',
+            'filter': ['==', 'Hour', 12],
+            'source': {
               type: 'geojson',
               data: test 
             },
-            paint: {
+            'paint': {
               'circle-radius': {
                 property: 'Concentration',
                 stops: [
