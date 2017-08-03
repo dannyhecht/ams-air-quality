@@ -216,7 +216,7 @@ L.mapbox.accessToken = 'pk.eyJ1IjoiZGhlY2h0IiwiYSI6ImNqNHRueTVyeDA3ZmYyd3FuY2NmY
 var map = L.mapbox.map('map', 'mapbox.streets')
   .setView([52.35963, 4.885431], 11.5);
 
-L.geoJson(geojson, { style: L.mapbox.simplestyle.style }).addTo(map);	 
+var stations = L.geoJson(geojson, { style: L.mapbox.simplestyle.style }).addTo(map);	 
 /* 
 var stationLayer = omnivore.geojson('data/aqi_monitoring_network.geojson');	 
     .on('ready', function() {
@@ -241,7 +241,7 @@ var map = new mapboxgl.Map({
  map.on('style.load', function() {
           map.addSource('points', {
 		type: 'geojson',
-  		data: './data/aqi_monitoring_network.geojson'
+  		data: stations
 	    //'https://raw.githubusercontent.com/dannyhecht/ams-air-quality/master/data/aqi_monitoring_network.geojson'
    	 });
          
@@ -251,7 +251,7 @@ var map = new mapboxgl.Map({
             "type": 'symbol',
             "source": { 
 		type:'geojson',
-	      	data:'./data/aqi_monitoring_network.geojson'
+	      	data: stations
                      },
             "layout": {
               'icon-image': 'marker-12',
