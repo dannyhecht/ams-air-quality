@@ -75,6 +75,7 @@
 
  <script>  
 mapboxgl.accessToken = 'pk.eyJ1IjoiZGhlY2h0IiwiYSI6ImNqNHRueTVyeDA3ZmYyd3FuY2NmYW9tNmoifQ.FetU2-IBDcrhTmSKBpFIfA';
+/*
 L.mapbox.accessToken = 'pk.eyJ1IjoiZGhlY2h0IiwiYSI6ImNqNHRueTVyeDA3ZmYyd3FuY2NmYW9tNmoifQ.FetU2-IBDcrhTmSKBpFIfA';
 var map = L.mapbox.map('map', 'mapbox.streets').setView([4.885431, 52.35963], 11.5);
 	 
@@ -88,7 +89,7 @@ var stationLayer = omnivore.geojson('data/aqi_monitoring_network.geojson');
         // or can't be parsed
     })
     .addTo(map);
-/*	 
+*/	 
 var map = new mapboxgl.Map({
           container: 'map', // container id
           style:  'mapbox://styles/mapbox/streets-v9',    // 'mapbox://styles/dhecht/cj53sifm400tw2smg5jlerack', // stylesheet location
@@ -223,7 +224,7 @@ var map = new mapboxgl.Map({
             map.getCanvas().style.cursor = features.length ? 'pointer' : '';
             });
         });
-  */     
+     
 </script>       
 <!-- <script src='js/timeFilters.js'></script> -->
 <script src='js/geolocate.js'></script>
