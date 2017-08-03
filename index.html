@@ -237,11 +237,11 @@ var map = new mapboxgl.Map({
           zoom: 11.5 // starting zoom
 });
 
- var stations = L.geoJson(geojson, { style: L.mapbox.simplestyle.style });		 
+  
  map.on('style.load', function() {
           map.addSource('points', {
 		type: 'geojson',
-  		data: stations
+  		data: geojson
 	    //'https://raw.githubusercontent.com/dannyhecht/ams-air-quality/master/data/aqi_monitoring_network.geojson'
    	 });
          
@@ -251,7 +251,7 @@ var map = new mapboxgl.Map({
             "type": 'symbol',
             "source": { 
 		type:'geojson',
-	      	data: stations
+	      	data: geojson
                      },
             "layout": {
               'icon-image': 'marker-12',
