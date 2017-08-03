@@ -237,7 +237,7 @@ var map = new mapboxgl.Map({
           zoom: 11.5 // starting zoom
 });
 
-	 
+L.geoJson(geojson, { style: L.mapbox.simplestyle.style }).addTo(map);		 
  map.on('style.load', function() {
           map.addSource('points', {
 		type: 'geojson',
