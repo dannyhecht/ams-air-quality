@@ -75,7 +75,7 @@
 
  <script>  
 mapboxgl.accessToken = 'pk.eyJ1IjoiZGhlY2h0IiwiYSI6ImNqNHRueTVyeDA3ZmYyd3FuY2NmYW9tNmoifQ.FetU2-IBDcrhTmSKBpFIfA';
-var map = L.mapbox.map('map', 'mapbox.streets');
+var map = new L.mapbox.map('map', 'mapbox.streets');
 	 .setView([4.885431, 52.35963], 11.5);
 	 
 var stationLayer = omnivore.geojson('data/aqi_monitoring_network.geojson');	 
