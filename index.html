@@ -72,7 +72,7 @@
     </div> <!-- end console -->
 
 <script> 
-var geojson = {
+var stations = [{
    "type": "FeatureCollection",
    "features": [
   {
@@ -208,13 +208,13 @@ var geojson = {
     }
   }
 ]
-};
+}];
 
 L.mapbox.accessToken = 'pk.eyJ1IjoiZGhlY2h0IiwiYSI6ImNqNHRueTVyeDA3ZmYyd3FuY2NmYW9tNmoifQ.FetU2-IBDcrhTmSKBpFIfA';
 
 var map = L.mapbox.map('map').setView([52.35963, 4.885431], 11.5);
 L.mapbox.styleLayer('mapbox://styles/mapbox/streets-v10').addTo(map);
-L.geoJson('https://raw.githubusercontent.com/dannyhecht/ams-air-quality/master/data/aqi_monitoring_network.geojson', {style: L.mapbox.simplestyle.style}).addTo(map);
+L.geoJson(stations, {style: L.mapbox.simplestyle.style}).addTo(map);
 L.control.locate({strings: { title: "Where am I?"}}).addTo(map);
 
 map.on('load', function() {
