@@ -84,7 +84,7 @@ L.geoJson(stations, {style: L.mapbox.simplestyle.style}).addTo(map);
 L.control.locate({strings: { title: "Where am I?"}}).addTo(map);
 
 
-/*	
+	
 map.on('load', function() {
      map.addSource('points', {
             type: 'geojson',
@@ -115,7 +115,7 @@ map.on('load', function() {
         filter: ['==', 'Hour', 12],
         source: {
           type: 'geojson',
-          data: 'https://raw.githubusercontent.com/dannyhecht/ams-air-quality/master/data/ams_stadhouderskade_5-01-2017_test.geojson'},
+          data: test,
         paint: {
           'circle-radius': {
             property: 'Concentration',
@@ -214,7 +214,7 @@ document.getElementById('slider').addEventListener('input', function(e) {
         map.getCanvas().style.cursor = features.length ? 'pointer' : '';
       });
    });
-*/	
+	
 </script>
 <script src='js/geolocate.js'></script>
 <script src="js/L.Control.Locate.js" ></script>
