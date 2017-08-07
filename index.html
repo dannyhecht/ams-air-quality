@@ -12,10 +12,8 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet">
     <link href='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.css' rel='stylesheet' />
     <link rel="stylesheet" href="css/L.Control.Locate.mapbox.min.css" />
-    <script src="/js/leaflet-0.7.2/leaflet.ajax.min.js"></script>
-    <script src='https://code.jquery.com/jquery-1.11.0.min.js'></script>
-    <script src='data/aqi_monitoring_network.geojson' type="text/javascript"></script>
-    <script src='data/ams_stadhouderskade_5-01-2017_test.geojson' type="text/javascript"></script>
+    <script src='data/aqi_monitoring_network.js' type="text/javascript"></script>
+    <script src='data/ams_stadhouderskade_5-01-2017_test.js' type="text/javascript"></script>
     
 
 </head>
@@ -82,47 +80,11 @@ var testURL = 'https://raw.githubusercontent.com/dannyhecht/ams-air-quality/mast
 	
 var map = L.mapbox.map('map').setView([52.35963, 4.885431], 11.5);
 L.mapbox.styleLayer('mapbox://styles/mapbox/streets-v10').addTo(map);
-//L.geoJson(stations, {style: L.mapbox.simplestyle.style}).addTo(map);
+L.geoJson(stations, {style: L.mapbox.simplestyle.style}).addTo(map);
 L.control.locate({strings: { title: "Where am I?"}}).addTo(map);
 
-var stations = new L.geoJson();
-stations.addTo(map);
 
-$.ajax({
-dataType: "json",
-url: './data/aqi_monitoring_network.geojson',
-success: function(data) {
-    $(data.features).each(function(key, data) {
-        stations.addData(data);
-    });
-}
-}).error(function() {});
-
-/*
-function load() {
-  // Fetch just the contents of a .geojson file from GitHub by passing
-  // `application/vnd.github.v3.raw` to the Accept header
-  // As with any other AJAX request, this technique is subject to the Same Origin Policy:
-  // http://en.wikipedia.org/wiki/Same_origin_policy the server delivering the request should support CORS.
-  $.ajax({
-    headers: {
-      'Accept': 'application/vnd.github.v3.raw'
-    },
-    xhrFields: {
-      withCredentials: false
-    },
-    dataType: 'json',
-    url: stationsURL,
-    success: function(geojson) {
-        // On success add fetched data to the map.
-        L.mapbox.featureLayer(geojson).addTo(map);
-    }
-  });
-}
-
-$(load);
-
-	
+/*	
 map.on('load', function() {
      map.addSource('points', {
             type: 'geojson',
