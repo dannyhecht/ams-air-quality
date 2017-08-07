@@ -90,7 +90,7 @@ stations.addTo(map);
 
 $.ajax({
 dataType: "json",
-url: stationsURL,
+url: './data/aqi_monitoring_network.geojson',
 success: function(data) {
     $(data.features).each(function(key, data) {
         stations.addData(data);
