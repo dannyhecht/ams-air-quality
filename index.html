@@ -220,7 +220,7 @@ L.control.locate({strings: { title: "Where am I?"}}).addTo(map);
 map.on('load', function() {
      map.addSource('points', {
             type: 'geojson',
-            data: 'https://raw.githubusercontent.com/dannyhecht/ams-air-quality/master/data/aqi_monitoring_network.geojson'
+            data: stations
           });       
   
       map.addLayer({
