@@ -26,6 +26,13 @@ var mapbox = new L.TileLayer(mapboxUrl, {
   zoomOffset: -1
 });
 
+var map = new L.Map('map', {
+    layers: [mapbox],
+    center: [52.35963, 4.885431],
+    zoom: 11.5,
+    zoomControl: true
+});
+
 // add location control to global name space for testing only
 // on a production site, omit the "lc = "!
 lc = L.control.locate({
