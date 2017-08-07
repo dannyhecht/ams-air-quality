@@ -1,31 +1,4 @@
 
-Skip to content
-This repository
-
-    Pull requests
-    Issues
-    Marketplace
-    Gist
-
-    @dannyhecht
-
-94
-4,760
-
-    264
-
-krisk/Fuse
-Code
-Issues 45
-Pull requests 6
-Projects 0
-Wiki
-Fuse/dist/fuse.js
-b7f298d on Jun 14
-@krisk krisk New version
-@krisk
-@Ambyjkl
-981 lines (817 sloc) 30.4 KB
 /*!
  * Fuse.js v3.0.5 - Lightweight fuzzy-search (http://fusejs.io)
  * 
@@ -1007,8 +980,3 @@ module.exports = Fuse;
 /******/ ]);
 });
 //# sourceMappingURL=fuse.js.map
-
-    Contact GitHub API Training Shop Blog About 
-
-    © 2017 GitHub, Inc. Terms Privacy Security Status Help 
-
