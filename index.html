@@ -12,6 +12,10 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet">
     <link href='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.css' rel='stylesheet' />
     <link rel="stylesheet" href="css/L.Control.Locate.mapbox.min.css" />
+    <script src="/js/leaflet-0.7.2/leaflet.ajax.min.js"></script>
+    <script src='https://code.jquery.com/jquery-1.11.0.min.js'></script>
+    <script src='data/ams_monitoring_network.geojson' type="text/javascript"></script>
+    <script src='data/ams_stadhouderskade_5-01-2017_test.geojson' type="text/javascript"></script>
     
 
 </head>
@@ -71,7 +75,6 @@
       </div>
          
     </div> <!-- end console -->
-<script src='https://code.jquery.com/jquery-1.11.0.min.js'></script>
 <script> 
 L.mapbox.accessToken = 'pk.eyJ1IjoiZGhlY2h0IiwiYSI6ImNqNHRueTVyeDA3ZmYyd3FuY2NmYW9tNmoifQ.FetU2-IBDcrhTmSKBpFIfA';
 var stationsURL = 'https://raw.githubusercontent.com/dannyhecht/ams-air-quality/master/data/aqi_monitoring_network.geojson';
@@ -81,7 +84,11 @@ var map = L.mapbox.map('map').setView([52.35963, 4.885431], 11.5);
 L.mapbox.styleLayer('mapbox://styles/mapbox/streets-v10').addTo(map);
 L.geoJson(stations, {style: L.mapbox.simplestyle.style}).addTo(map);
 L.control.locate({strings: { title: "Where am I?"}}).addTo(map);
-	
+
+var geojsonLayer = new L.GeoJSON.AJAX("data/ams_monitoring_network.geojson");       
+geojsonLayer.addTo(map);
+
+/*
 function load() {
   // Fetch just the contents of a .geojson file from GitHub by passing
   // `application/vnd.github.v3.raw` to the Accept header
@@ -105,7 +112,7 @@ function load() {
 
 $(load);
 
-	
+*/	
 map.on('load', function() {
      map.addSource('points', {
             type: 'geojson',
