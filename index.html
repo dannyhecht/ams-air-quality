@@ -211,139 +211,143 @@ var geojson = {
 };
 
 L.mapbox.accessToken = 'pk.eyJ1IjoiZGhlY2h0IiwiYSI6ImNqNHRueTVyeDA3ZmYyd3FuY2NmYW9tNmoifQ.FetU2-IBDcrhTmSKBpFIfA';
+
 var map = L.mapbox.map('map').setView([52.35963, 4.885431], 11.5);
 L.mapbox.styleLayer('mapbox://styles/mapbox/streets-v10').addTo(map);
-L.geoJson(geojson, { style: L.mapbox.simplestyle.style }).addTo(map);
+L.geoJson('https://raw.githubusercontent.com/dannyhecht/ams-air-quality/master/data/aqi_monitoring_network.geojson', {style: L.mapbox.simplestyle.style}).addTo(map);
+L.control.locate({strings: { title: "Where am I?"}}).addTo(map);
 
-/*	
- map.on('style.load', function() {
-          map.addSource('points', {
-		type: 'geojson',
-  		data: 'data/aqi_monitoring_network.geojson'
-	    //'https://raw.githubusercontent.com/dannyhecht/ams-air-quality/master/data/aqi_monitoring_network.geojson'
-   	 });
-         
-          map.addLayer({
-            "id": 'points',
-            "interactive": true, 
-            "type": 'symbol',
-            "source": { 
-		type:'geojson',
-	      	data: 'data/aqi_monitoring_network.geojson'
-                     },
-            "layout": {
-              'icon-image': 'marker-12',
-              'icon-allow-overlap': true,
-              'icon-size': 1.25,
-              "text-font": "Open Sans Semibold, Arial Unicode MS Bold",
-              "text-offset": [0, 0.6],
-              "text-anchor": "top"
-            },
-            "paint" : {"text-size": 10 }
-          });
-    
-          map.addLayer({
-            'id': 'concentration',
-            'type': 'circle',
-            'filter': ['==', 'Hour', 12],
-            'source': {
-              type: 'geojson',
-              data: 'data/ams_stadhouderskade_5-01-2017_test.geojson'
-            },
-            'paint': {
-              'circle-radius': {
-                property: 'Concentration',
-                stops: [
-                  [0, 3],
-                  [5, 15]
-                ]
-              },
-              'circle-color': {
-                property: 'Concentration',
-                stops: [
-                  [0, '#2DC4B2'],
-                  [25, '#3BB3C3'],
-                  [75, '#669EC4'],
-                  [100, '#8B88B6'],
-                  [125, '#A2719B'],
-                  [150, '#AA5E79']
-                ]
-              },
-              'circle-opacity': 0.8
-            }
-          }, 'admin-2-boundaries-dispute'); // place the layer beneath this layer in the basemap
-       
-            
+map.on('load', function() {
+     map.addSource('points', {
+            type: 'geojson',
+            data: 'https://raw.githubusercontent.com/dannyhecht/ams-air-quality/master/data/aqi_monitoring_network.geojson'
+          });       
+  
+      map.addLayer({
+        id: 'geoPoints',
+        interactive: true,
+        type: 'symbol',
+        source: 'points',
+        layout: {
+          'icon-image': 'marker-12',
+          'icon-allow-overlap': true,
+          'icon-size': 1.25,
+          'text-font': "Open Sans Semibold, Arial Unicode MS Bold",
+          "text-offset": [0, 0.6],
+          "text-anchor": "top"
+        },
+        paint: {
+          "text-size": 10
+        }
+      });
+  
+      map.addLayer({
+        id: 'concentration',
+        type: 'circle',
+        filter: ['==', 'Hour', 12],
+        source: {
+          type: 'geojson',
+          data: 'https://raw.githubusercontent.com/dannyhecht/ams-air-quality/master/data/ams_stadhouderskade_5-01-2017_test.geojson'},
+        paint: {
+          'circle-radius': {
+            property: 'Concentration',
+            stops: [
+              [0, 3],
+              [5, 15]
+            ]
+          },
+          'circle-color': {
+            property: 'Concentration',
+            stops: [
+              [0, '#2DC4B2'],
+              [25, '#3BB3C3'],
+              [75, '#669EC4'],
+              [100, '#8B88B6'],
+              [125, '#A2719B'],
+              [150, '#AA5E79']
+            ]
+          },
+          'circle-opacity': 0.8
+        }
+      }, 'admin-2-boundaries-dispute'); // place the layer beneath this layer in the basemap
+    });
+ 
 
+
+document.getElementById('slider').addEventListener('input', function(e) {
+      // get the current hour as an integer
+      var hour = parseInt(e.target.value);
+      // map.setFilter(layer-name, filter)
+      map.setFilter('concentration', ['==', 'Hour', hour]);
+      // converting 0-23 hour to AMPM format
+      var ampm = hour >= 12 ? 'PM' : 'AM';
+      var hour12 = hour % 12 ? hour % 12 : 12;
+      // update text in the UI
+      document.getElementById('active-hour').innerText = hour12 + ampm;
+    });
+    document.getElementById('filters').addEventListener('change', function(e) {
+      var day = e.target.value;
+      var filterDay;
+      if (day === 'sun') {
+        filterDay = ['==', 'Day', 'Sun'];
+      } else if (day === 'mon') {
+        filterDay = ['==', 'Day', 'Mon'];
+      } else if (day === 'tues') {
+        filterDay = ['==', 'Day', 'Tues'];
+      } else if (day === 'wed') {
+        filterDay = ['==', 'Day', 'Wed'];
+      } else if (day === 'thurs') {
+        filterDay = ['==', 'Day', 'Thurs'];
+      } else if (day === 'fri') {
+        filterDay = ['==', 'Day', 'Fri'];
+      } else if (day === 'sat') {
+        filterDay = ['==', 'Day', 'Mon'];
+      } else {
+        console.log('error');
+      }
+      map.setFilter('concentration', filterDay);
     });
 
-     document.getElementById('slider').addEventListener('input', function(e) {
-              // get the current hour as an integer
-              var hour = parseInt(e.target.value);
-              // map.setFilter(layer-name, filter)
-              map.setFilter('concentration', ['==', 'Hour', hour]);
-
-              // converting 0-23 hour to AMPM format
-              var ampm = hour >= 12 ? 'PM' : 'AM';
-              var hour12 = hour % 12 ? hour % 12 : 12;
-              // update text in the UI
-              document.getElementById('active-hour').innerText = hour12 + ampm;
-         });
-
-        document.getElementById('filters').addEventListener('change', function(e) {
-              var day = e.target.value;
-              var filterDay;
-              if (day === 'sun') {
-                filterDay = ['==', 'Day','Sun'];
-              } else if (day === 'mon') {
-                filterDay = ['==', 'Day', 'Mon'];
-              } else if (day === 'tues') {
-                filterDay = ['==', 'Day', 'Tues'];
-              } else if (day === 'wed') {
-                filterDay = ['==', 'Day', 'Wed'];
-              } else if (day === 'thurs') {
-                filterDay = ['==', 'Day', 'Thurs'];
-              } else if (day === 'fri') {
-                filterDay = ['==', 'Day', 'Fri'];
-	      } else if (day === 'sat') {
-                filterDay = ['==', 'Day', 'Mon'];
-              } else {
-                console.log('error');
-              }
-              map.setFilter('concentration', filterDay);
-        }); 
- */        
     // stations marker popup    
- map.on('click', function (e) {
-    // Use featuresAt to get features within a given radius of the click event
-    // Use layer option to avoid getting results from other layers
-        map.featuresAt(e.point, {layer: 'geojson', radius: 10, includeGeometry: true}, function (err, features) {
-            if (err) throw err;
-            // if there are features within the given radius of the click event,
-            // fly to the location of the click event
-            if (features.length) {
-                // Get coordinates from the symbol and center the map on those coordinates
-                map.flyTo({center: features[0].geometry.coordinates});
-                var featureStation = features[0].properties.Station;
-                var featureDescription = features[0].properties.des;
-                var tooltip = new mapboxgl.Popup()
-                    .setLngLat(e.lngLat)
-                    .setHTML('<p>' + featureStation + featureDescription + '</p>')
-                    .addTo(map);
-                }
-            });
-        }); 
-       
+    map.on('click', function(e) {
+      // Use featuresAt to get features within a given radius of the click event
+      // Use layer option to avoid getting results from other layers
+      map.featuresAt(e.point, {
+        layer: 'geoPoints',
+        radius: 10,
+        includeGeometry: true
+      }, function(err, features) {
+        if (err) throw err;
+        // if there are features within the given radius of the click event,
+        // fly to the location of the click event
+        if (features.length) {
+          // Get coordinates from the symbol and center the map on those coordinates
+          map.flyTo({
+            center: features[0].geometry.coordinates
+          });
+          var featureStation = features[0].properties.Station;
+          var featureDescription = features[0].properties.des;
+          var tooltip = new mapboxgl.Popup()
+            .setLngLat(e.lngLat)
+            .setHTML('<p>' + featureStation + featureDescription + '</p>')
+            .addTo(map);
+        }
+      });
+    });
+
     // Use the same approach as above to indicate that the symbols are clickable
     // by changing the cursor style to 'pointer'.
- map.on('mousemove', function (e) {
-        map.featuresAt(e.point, {layer: 'geojson', radius: 10}, function (err, features) {
-            if (err) throw err;
-            map.getCanvas().style.cursor = features.length ? 'pointer' : '';
-            });
-        });
-   
-</script>       
+    map.on('mousemove', function(e) {
+      map.featuresAt(e.point, {
+        layer: 'geoPoints',
+        radius: 10
+      }, function(err, features) {
+        if (err) throw err;
+        map.getCanvas().style.cursor = features.length ? 'pointer' : '';
+      });
+   });
+	
+</script>
 <script src='js/geolocate.js'></script>
 <script src="js/L.Control.Locate.js" ></script>
 </body>    
