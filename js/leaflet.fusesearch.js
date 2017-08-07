@@ -339,8 +339,3 @@ L.Control.FuseSearch = L.Control.extend({
 L.control.fuseSearch = function(options) {
     return new L.Control.FuseSearch(options);
 };
-
-    Contact GitHub API Training Shop Blog About 
-
-    © 2017 GitHub, Inc. Terms Privacy Security Status Help 
-
