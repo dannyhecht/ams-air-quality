@@ -210,7 +210,7 @@ var geojson = {
 };
 
 L.mapbox.accessToken = 'pk.eyJ1IjoiZGhlY2h0IiwiYSI6ImNqNHRueTVyeDA3ZmYyd3FuY2NmYW9tNmoifQ.FetU2-IBDcrhTmSKBpFIfA';
-var map = L.mapbox.map('map', 'mapbox://styles/dhecht/cj53sifm400tw2smg5jlerack')
+var map = L.mapbox.map('map', 'mapbox.streets-v9')
   .setView([52.35963, 4.885431], 11.5);
 
 L.geoJson(geojson, { style: L.mapbox.simplestyle.style }).addTo(map);	 
