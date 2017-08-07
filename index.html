@@ -9,7 +9,9 @@
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.css' rel='stylesheet' />
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.js'></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet">
     <link href='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.css' rel='stylesheet' />
+    <link rel="stylesheet" href="css/L.Control.Locate.mapbox.min.css" />
 
 </head>
     
@@ -212,28 +214,8 @@ L.mapbox.accessToken = 'pk.eyJ1IjoiZGhlY2h0IiwiYSI6ImNqNHRueTVyeDA3ZmYyd3FuY2NmY
 var map = L.mapbox.map('map').setView([52.35963, 4.885431], 11.5);
 L.mapbox.styleLayer('mapbox://styles/mapbox/streets-v10').addTo(map);
 L.geoJson(geojson, { style: L.mapbox.simplestyle.style }).addTo(map);
-	
-/*
-var stationLayer = omnivore.geojson('data/aqi_monitoring_network.geojson');	 
-    .on('ready', function() {
-        // when this is fired, the layer
-        // is done being initialized
-    })
-    .on('error', function() {
-        // fired if the layer can't be loaded over AJAX
-        // or can't be parsed
-    })
-    .addTo(map);
 
-mapboxgl.accessToken = 'pk.eyJ1IjoiZGhlY2h0IiwiYSI6ImNqNHRueTVyeDA3ZmYyd3FuY2NmYW9tNmoifQ.FetU2-IBDcrhTmSKBpFIfA';
-var map = new mapboxgl.Map({
-          container: 'map', // container id
-          style:  'mapbox://styles/mapbox/streets-v9',    // 'mapbox://styles/dhecht/cj53sifm400tw2smg5jlerack', // stylesheet location
-          center: [4.885431, 52.35963], // long lat
-          zoom: 11.5 // starting zoom
-});
-
- 
+/*	
  map.on('style.load', function() {
           map.addSource('points', {
 		type: 'geojson',
@@ -330,12 +312,12 @@ var map = new mapboxgl.Map({
               }
               map.setFilter('concentration', filterDay);
         }); 
-        
+ */        
     // stations marker popup    
  map.on('click', function (e) {
     // Use featuresAt to get features within a given radius of the click event
     // Use layer option to avoid getting results from other layers
-        map.featuresAt(e.point, {layer: 'geoPoints', radius: 10, includeGeometry: true}, function (err, features) {
+        map.featuresAt(e.point, {layer: 'geojson', radius: 10, includeGeometry: true}, function (err, features) {
             if (err) throw err;
             // if there are features within the given radius of the click event,
             // fly to the location of the click event
@@ -351,7 +333,7 @@ var map = new mapboxgl.Map({
                 }
             });
         }); 
- */       
+       
     // Use the same approach as above to indicate that the symbols are clickable
     // by changing the cursor style to 'pointer'.
  map.on('mousemove', function (e) {
@@ -363,5 +345,6 @@ var map = new mapboxgl.Map({
    
 </script>       
 <script src='js/geolocate.js'></script>
+<script src="js/L.Control.Locate.js" ></script>
 </body>    
 </html>
