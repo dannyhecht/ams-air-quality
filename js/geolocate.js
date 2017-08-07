@@ -11,7 +11,7 @@
 // LEAFLET + MAPBOX
 // add location control to global name space for testing only
 // on a production site, omit the "lc = "!
-lc = L.control.locate({
+L.control.locate({
     strings: {
         title: "Show me where I am, yo!"
     }
