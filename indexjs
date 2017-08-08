@@ -1,6 +1,6 @@
 var turf = require('turf');
 var fs = require('fs');
-var testPoints = fs.readFileSync('./data/ams_5-01-2017.geojson');
+var testPoints = fs.readFileSync('./data/ams_5-01-2017_test.geojson');
 testPoints = JSON.parse(testPoints);
 
 // IDW takes in input
@@ -42,8 +42,8 @@ function IDW(controlPoints, b,cellWidth, units) {
 
 
   // console.log(Z);
-  fs.writeFileSync('./pointGrid.geojson', JSON.stringify(Z));
-  fs.writeFileSync('./squareGrid.geojson', JSON.stringify(squareGrid));
+  fs.writeFileSync('./data/pointGrid.geojson', JSON.stringify(Z));
+  fs.writeFileSync('./data/squareGrid.geojson', JSON.stringify(squareGrid));
 }
 
 IDW(testPoints,0.5,0.5,'kilometers')
