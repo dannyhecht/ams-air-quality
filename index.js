@@ -1,6 +1,6 @@
 var turf = require('turf');
 var fs = require('fs');
-var testPoints = fs.readFileSync('./data/ams_5-01-2017_test.geojson');
+var testPoints = fs.readFileSync('./data/ams_5-01-2017.geojson');
 testPoints = JSON.parse(testPoints);
 
 // IDW takes in input
