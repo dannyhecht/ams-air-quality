@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title> Amsterdam Air Quality Monitoring </title>
+	
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.css' rel='stylesheet' />
+    
+</head>
+    
+<body>
+<div id='map'></div>
+    
+    <div id='console'>
+      <h1>This Week's Air Quality Monitoring</h1>
+      <p>Data: <a href='https://www.luchtmeetnet.nl/download'>Pollution Concentrations</a> in Amsterdam, The Netherlands</p>
+
+      <div class='session'>
+          <h2><select id="pollutant">
+		  <option value="NO" >NO</option>
+          <option value="NO2" selected >NO2</option>
+       	  </select> Concentration (μg/m3)</h2>
+          <div class='row colors'></div>
+          <div class='row labels'>
+            <div class='label'>0</div>
+            <div class='label'>25</div>
+            <div class='label'>75</div>
+            <div class='label'>100</div>
+            <div class='label'>125</div>
+            <div class='label'>150+</div>
+          </div>
+      </div>  
+
+      <div class='session' id='sliderbar'>
+          <h2>Hour: <label id='active-hour'>12PM</label></h2>
+          <input id='slider' class='row' type='range' min='0' max='23' step='1' value='12' />
+      </div>
+
+      <div class='session'>
+          <h2>Day of the week</h2>
+          <div class='row' id='filters'>
+	    <input id='sun' type='radio' name='toggle' value='sun'>
+	    <label for='sun'>Sunday</label>
+		  <br/>
+            <input id='mon' type='radio' name='toggle' value='mon' checked='checked'>
+	    <label for='mon'>Monday</label>
+		  <br/>
+            <input id='tues' type='radio' name='toggle' value='tues'>
+            <label for='tues'>Tuesday</label>
+		  <br/>
+	    <input id='wed' type='radio' name='toggle' value='wed'>
+            <label for='wed'>Wednesday</label>
+		  <br/>
+ 	    <input id='thurs' type='radio' name='toggle' value='thurs'>
+            <label for='thurs'>Thursday</label>
+		  <br/>
+	    <input id='fri' type='radio' name='toggle' value='fri'>
+            <label for='fri'>Friday</label>
+		  <br/>
+	    <input id='sat' type='radio' name='toggle' value='sat'>
+            <label for='sat'>Saturday</label>
+          </div>
+      </div>
+         
+    </div> <!-- end console -->
+
+
+<script> 
+L.mapbox.accessToken = 'pk.eyJ1IjoiZGhlY2h0IiwiYSI6ImNqNHRueTVyeDA3ZmYyd3FuY2NmYW9tNmoifQ.FetU2-IBDcrhTmSKBpFIfA';
+var stationsURL = 'https://raw.githubusercontent.com/dannyhecht/ams-air-quality/master/data/aqi_monitoring_network.geojson';
+var testURL = 'https://raw.githubusercontent.com/dannyhecht/ams-air-quality/master/data/ams_stadhouderskade_5-01-2017_test.geojson';
+	
+//Creat Layer
+var baseMap = new L.TileLayer('http://{s}.tiles.mapbox.com/v3/gvenech.m13knc8e/{z}/{x}/{y}.png');
+
+var baseMapIndex = {
+  "Map": baseMap
+};
+
+// Create the map
+var map = new L.map('map', {
+    center: new L.LatLng(52.35963, 4.885431),
+    zoom: 11.5,
+    maxZoom: 20,
+    zoomControl: false, // Disable the default zoom controls.
+    layers: baseMap
+});
+
+// Point style
+var stationStyle = {
+  opacity: 0.9,
+  fillOpacity: 0.7
+};
+
+// Callback to create overlay layer
+/* Creating a layer from a async call probably will be a common task.  
+ * Refactor out the function to make a layer, you can use this function with multiple layers. 
+ */
+function createPointOverlay(data, layerName, style) {
+  var overlay = L.geoJson(data, { // Make the layer from the JSON and grab the handle.
+    pointToLayer: function (feature, latlng) {
+    return L.circleMarker(latlng, style); 
+    }
+  });
+  overlay.addTo(map); // Add the data to the map, now you can see the point layer.
+  control.addOverlay(overlay, layerName); // Add the layer to the Layer Control.
+}
+
+// Get GeoJSON data
+/* Break it down and KISS.  Get the data and call a function upon completion.
+ *
+ * We use a anonymous function to call the createOverlay function.  This is because the callback only has 
+ * the signature with submitting one object, the JSON object.  Once called it passes to the actual function with the
+ * customisation that we wanted.  This allows you to use this with multiple JSON objects served from AWS. 
+ */
+$.getJSON(stationsURL, function (data) { createPointOverlay(data, "Air Quality Monitoring Stations", stationStyle) });
+
+// Create the control and add it to the map;
+var control = L.control.layers(baseMapIndex); // Grab the handle of the Layer Control, it will be easier to find.
+control.addTo(map);  
+  
+
+
+/*	MAPBOX ADD LAYERS
+map.on('load', function() {
+     map.addSource('points', {
+            type: 'geojson',
+            data: stations
+          });       
+  
+      map.addLayer({
+        id: 'geoPoints',
+        interactive: true,
+        type: 'symbol',
+        source: 'points',
+        layout: {
+          'icon-image': 'marker-12',
+          'icon-allow-overlap': true,
+          'icon-size': 1.25,
+          'text-font': "Open Sans Semibold, Arial Unicode MS Bold",
+          "text-offset": [0, 0.6],
+          "text-anchor": "top"
+        },
+        paint: {
+          "text-size": 10
+        }
+      });
+  
+      map.addLayer({
+        id: 'concentration',
+        type: 'circle',
+        filter: ['==', 'Hour', 12],
+        source: {
+          type: 'geojson',
+          data: test,
+        paint: {
+          'circle-radius': {
+            property: 'Concentration',
+            stops: [
+              [0, 3],
+              [5, 15]
+            ]
+          },
+          'circle-color': {
+            property: 'Concentration',
+            stops: [
+              [0, '#2DC4B2'],
+              [25, '#3BB3C3'],
+              [75, '#669EC4'],
+              [100, '#8B88B6'],
+              [125, '#A2719B'],
+              [150, '#AA5E79']
+            ]
+          },
+          'circle-opacity': 0.8
+        }
+      }, 'admin-2-boundaries-dispute'); // place the layer beneath this layer in the basemap
+    });
+});
+
+
+document.getElementById('slider').addEventListener('input', function(e) {
+      // get the current hour as an integer
+      var hour = parseInt(e.target.value);
+      // map.setFilter(layer-name, filter)
+      map.setFilter('concentration', ['==', 'Hour', hour]);
+      // converting 0-23 hour to AMPM format
+      var ampm = hour >= 12 ? 'PM' : 'AM';
+      var hour12 = hour % 12 ? hour % 12 : 12;
+      // update text in the UI
+      document.getElementById('active-hour').innerText = hour12 + ampm;
+    });
+    document.getElementById('filters').addEventListener('change', function(e) {
+      var day = e.target.value;
+      var filterDay;
+      if (day === 'sun') {
+        filterDay = ['==', 'Day', 'Sun'];
+      } else if (day === 'mon') {
+        filterDay = ['==', 'Day', 'Mon'];
+      } else if (day === 'tues') {
+        filterDay = ['==', 'Day', 'Tues'];
+      } else if (day === 'wed') {
+        filterDay = ['==', 'Day', 'Wed'];
+      } else if (day === 'thurs') {
+        filterDay = ['==', 'Day', 'Thurs'];
+      } else if (day === 'fri') {
+        filterDay = ['==', 'Day', 'Fri'];
+      } else if (day === 'sat') {
+        filterDay = ['==', 'Day', 'Mon'];
+      } else {
+        console.log('error');
+      }
+      map.setFilter('concentration', filterDay);
+    });
+
+    // stations marker popup    
+    map.on('click', function(e) {
+      // Use featuresAt to get features within a given radius of the click event
+      // Use layer option to avoid getting results from other layers
+      map.featuresAt(e.point, {
+        layer: 'geoPoints',
+        radius: 10,
+        includeGeometry: true
+      }, function(err, features) {
+        if (err) throw err;
+        // if there are features within the given radius of the click event,
+        // fly to the location of the click event
+        if (features.length) {
+          // Get coordinates from the symbol and center the map on those coordinates
+          map.flyTo({
+            center: features[0].geometry.coordinates
+          });
+          var featureStation = features[0].properties.Station;
+          var featureDescription = features[0].properties.des;
+          var tooltip = new mapboxgl.Popup()
+            .setLngLat(e.lngLat)
+            .setHTML('<p>' + featureStation + featureDescription + '</p>')
+            .addTo(map);
+        }
+      });
+    });
+
+    // Use the same approach as above to indicate that the symbols are clickable
+    // by changing the cursor style to 'pointer'.
+    map.on('mousemove', function(e) {
+      map.featuresAt(e.point, {
+        layer: 'geoPoints',
+        radius: 10
+      }, function(err, features) {
+        if (err) throw err;
+        map.getCanvas().style.cursor = features.length ? 'pointer' : '';
+      });
+   });
+*/	
+</script>
+<script src='js/geolocate.js'></script>
+</body>
+</html>
