@@ -83,10 +83,9 @@ var testURL = 'https://raw.githubusercontent.com/dannyhecht/ams-air-quality/mast
 	
 var map = L.mapbox.map('map').setView([52.35963, 4.885431], 11.5);
 L.mapbox.styleLayer('mapbox://styles/mapbox/streets-v10').addTo(map);
-L.geoJson(stations).addTo(map);
-L.geoJson(test).addTo(map);
+var stationsLayer = L.geoJson(stations).addTo(map);
+var testLayer = L.geoJson(test).addTo(map);
 L.control.locate({strings: { title: "Where am I?"}}).addTo(map);
-
 
 var searchCtrl = L.control.fuseSearch()
 searchCtrl.addTo(map);
@@ -99,6 +98,10 @@ L.geoJson(test, {
 });
 
 
+
+stationsLayer.eachLayer(function(layer) {
+  layer.bindPopup(feature.properties.station);
+});
 
 /*	
 map.on('load', function() {
